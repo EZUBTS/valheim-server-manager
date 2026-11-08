@@ -10,7 +10,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/EZUBTS/valheim-server-manager/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/EZUBTS/valheim-server-manager/actions/workflows/ci.yml/badge.svg" /></a>
   <a href="https://github.com/EZUBTS/valheim-server-manager/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/EZUBTS/valheim-server-manager?display_name=tag" /></a>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-yellow.svg" /></a>
   <a href="https://www.microsoft.com/windows"><img alt="Windows 10/11" src="https://img.shields.io/badge/platform-Windows%2010%2F11-0078D6" /></a>
@@ -286,9 +285,9 @@ pnpm check                                  # typecheck + lint + vitest
 - бэкенд: Rust edition 2024, clippy pedantic, юнит-тесты конфига/аргументов/логов/
   бэкапов/списков/сети;
 - линтеры: oxlint (type-aware) + Prettier, rustfmt + clippy;
-- CI: `.github/workflows/ci.yml` — фронтенд (ubuntu) и Rust (windows) на каждый
-  push/PR; релизы — `.github/workflows/release.yml` по тегу `v*` (Windows:
-  MSI/NSIS + архив для друзей).
+- CI: готовые workflow лежат в [`docs/ci/`](docs/ci) (фронтенд на ubuntu, Rust на
+  windows, релиз по тегу `v*`). Включаются одной командой `gh auth refresh -s workflow`
+  и копированием файлов в `.github/workflows/` — см. [docs/ci/README.md](docs/ci/README.md).
 
 ## Структура проекта
 
