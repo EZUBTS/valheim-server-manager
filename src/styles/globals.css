@@ -1,0 +1,269 @@
+@import 'tailwindcss';
+
+/* The theme is controlled by the `.dark` class on <html>. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans:
+    'Segoe UI Variable Text', 'Segoe UI', ui-sans-serif, system-ui, -apple-system, 'Helvetica Neue',
+    Arial, sans-serif;
+  --font-display: 'Georgia', 'Palatino Linotype', 'Book Antiqua', 'Times New Roman', serif;
+  --font-mono:
+    'Cascadia Code', 'Cascadia Mono', ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono',
+    monospace;
+}
+
+:root {
+  --radius: 0.625rem;
+
+  /* Light theme: aged parchment, moss and deep gold. */
+  --background: oklch(0.972 0.012 95);
+  --foreground: oklch(0.26 0.022 150);
+  --card: oklch(0.996 0.006 95);
+  --card-foreground: oklch(0.26 0.022 150);
+  --popover: oklch(0.996 0.006 95);
+  --popover-foreground: oklch(0.26 0.022 150);
+  --primary: oklch(0.56 0.11 78);
+  --primary-foreground: oklch(0.99 0.008 95);
+  --secondary: oklch(0.938 0.018 140);
+  --secondary-foreground: oklch(0.3 0.025 150);
+  --muted: oklch(0.945 0.014 120);
+  --muted-foreground: oklch(0.5 0.022 150);
+  --accent: oklch(0.93 0.026 130);
+  --accent-foreground: oklch(0.28 0.03 150);
+  --destructive: oklch(0.55 0.2 27);
+  --destructive-foreground: oklch(0.99 0.01 27);
+  --success: oklch(0.5 0.12 150);
+  --success-foreground: oklch(0.99 0.01 150);
+  --warning: oklch(0.7 0.13 80);
+  --warning-foreground: oklch(0.25 0.05 80);
+  --border: oklch(0.88 0.016 120);
+  --input: oklch(0.87 0.016 120);
+  --ring: oklch(0.62 0.12 80);
+
+  color-scheme: light;
+}
+
+.dark {
+  /* Dark theme: Valheim's night forest, moss and gold. */
+  --background: oklch(0.145 0.012 150);
+  --foreground: oklch(0.925 0.02 95);
+  --card: oklch(0.185 0.014 150);
+  --card-foreground: oklch(0.925 0.02 95);
+  --popover: oklch(0.2 0.016 150);
+  --popover-foreground: oklch(0.925 0.02 95);
+  --primary: oklch(0.79 0.13 82);
+  --primary-foreground: oklch(0.2 0.03 80);
+  --secondary: oklch(0.255 0.02 150);
+  --secondary-foreground: oklch(0.93 0.02 95);
+  --muted: oklch(0.225 0.016 150);
+  --muted-foreground: oklch(0.7 0.025 120);
+  --accent: oklch(0.29 0.03 150);
+  --accent-foreground: oklch(0.95 0.02 95);
+  --destructive: oklch(0.6 0.19 27);
+  --destructive-foreground: oklch(0.98 0.01 27);
+  --success: oklch(0.73 0.13 145);
+  --success-foreground: oklch(0.16 0.03 145);
+  --warning: oklch(0.84 0.13 82);
+  --warning-foreground: oklch(0.22 0.04 82);
+  --border: oklch(0.315 0.022 150);
+  --input: oklch(0.355 0.022 150);
+  --ring: oklch(0.79 0.13 82);
+
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+    overflow: hidden;
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    font-synthesis-weight: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  ::selection {
+    background-color: color-mix(in oklab, var(--primary) 30%, transparent);
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border: 3px solid transparent;
+    border-radius: 9999px;
+    background-color: var(--border);
+    background-clip: content-box;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--muted-foreground);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      scroll-behavior: auto !important;
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* Native Windows 11 caption icons: the system icon font, 10px like the OS. */
+  .caption-glyph {
+    font-family: 'Segoe Fluent Icons', 'Segoe MDL2 Assets', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+  }
+
+  /* Forest atmosphere behind the page content: gold light and moss shadow. */
+  .app-background {
+    background-image:
+      radial-gradient(
+        85rem 48rem at 112% -22%,
+        color-mix(in oklab, var(--primary) 9%, transparent),
+        transparent 62%
+      ),
+      radial-gradient(
+        60rem 38rem at -14% 118%,
+        color-mix(in oklab, var(--success) 8%, transparent),
+        transparent 58%
+      ),
+      linear-gradient(
+        180deg,
+        color-mix(in oklab, var(--background) 96%, black 4%),
+        var(--background)
+      );
+    background-attachment: local;
+  }
+
+  /* Thin gold rule with runic diamonds on both sides. */
+  .rune-divider {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--muted-foreground);
+  }
+
+  .rune-divider::before,
+  .rune-divider::after {
+    content: '';
+    height: 1px;
+    flex: 1;
+    background-image: linear-gradient(
+      90deg,
+      transparent,
+      color-mix(in oklab, var(--primary) 45%, transparent),
+      transparent
+    );
+  }
+
+  /* Gold gradient for the product wordmark. */
+  .text-gold-gradient {
+    background-image: linear-gradient(
+      100deg,
+      oklch(0.9 0.1 90),
+      color-mix(in oklab, var(--primary) 92%, white 8%) 45%,
+      oklch(0.72 0.14 68)
+    );
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Soft gold glow for the "server is running" indicator. */
+  .status-glow {
+    box-shadow:
+      0 0 0 3px color-mix(in oklab, var(--success) 18%, transparent),
+      0 0 12px color-mix(in oklab, var(--success) 45%, transparent);
+  }
+
+  /* Animated scanline-like sheen for long-running progress. */
+  .progress-sheen {
+    background-image: linear-gradient(
+      100deg,
+      transparent 20%,
+      color-mix(in oklab, var(--primary) 35%, transparent) 50%,
+      transparent 80%
+    );
+    background-size: 200% 100%;
+    animation: progress-sheen 2.4s linear infinite;
+  }
+
+  @keyframes progress-sheen {
+    from {
+      background-position: 200% 0;
+    }
+
+    to {
+      background-position: -200% 0;
+    }
+  }
+
+  /* Runic watermark used sparingly on empty states. */
+  .rune-watermark {
+    font-family: 'Segoe UI Symbol', var(--font-display);
+    letter-spacing: 0.35em;
+    color: color-mix(in oklab, var(--primary) 22%, transparent);
+  }
+}

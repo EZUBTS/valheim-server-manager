@@ -1,0 +1,4352 @@
+{
+  "meta": {
+    "gameVersion": "1.0.21",
+    "networkVersion": 41,
+    "platform": "Windows",
+    "generatedFor": "Valheim dedicated server manager — admin panel data",
+    "prefabSource": "Jotunn prefab dump (Valheim-Modding/Jotunn, JotunnLib/Documentation/data/prefabs/prefab-list.md), сверено с клиентом 1.0.x",
+    "commandSource": "assembly_valheim.dll из состава Valheim Dedicated Server 1.0.21 (реестр Terminal/Console)",
+    "disclaimer": "Prefab ID регистрозависимы. Команды с requiresDevcommands=true на ванильном выделенном сервере не работают — нужен мод (Server devcommands)."
+  },
+  "items": [
+    {
+      "prefab": "Wood",
+      "nameRu": "Древесина",
+      "category": "Материалы",
+      "nameEn": "Wood",
+      "note": "Базовый ресурс; доски, уголь"
+    },
+    {
+      "prefab": "FineWood",
+      "nameRu": "Изящная древесина",
+      "category": "Материалы",
+      "nameEn": "Finewood",
+      "note": "Берёза/дуб"
+    },
+    {
+      "prefab": "RoundLog",
+      "nameRu": "Сердцевина",
+      "category": "Материалы",
+      "nameEn": "Corewood",
+      "note": "Corewood; брёвна из сосен"
+    },
+    {
+      "prefab": "ElderBark",
+      "nameRu": "Древняя кора",
+      "category": "Материалы",
+      "nameEn": "Ancient Bark",
+      "note": "Ancient Bark"
+    },
+    {
+      "prefab": "YggdrasilWood",
+      "nameRu": "Древесина Иггдрасиля",
+      "category": "Материалы",
+      "nameEn": "Yggdrasil Wood",
+      "note": "Мглистые земли"
+    },
+    {
+      "prefab": "Blackwood",
+      "nameRu": "Пепельная древесина",
+      "category": "Материалы",
+      "nameEn": "Ashwood",
+      "note": "Ashwood"
+    },
+    {
+      "prefab": "Stone",
+      "nameRu": "Камень",
+      "category": "Материалы",
+      "nameEn": "Stone",
+      "note": "Основной стройматериал"
+    },
+    {
+      "prefab": "Flint",
+      "nameRu": "Кремень",
+      "category": "Материалы",
+      "nameEn": "Flint",
+      "note": "Побережье, стартовый тир"
+    },
+    {
+      "prefab": "Resin",
+      "nameRu": "Смола",
+      "category": "Материалы",
+      "nameEn": "Resin",
+      "note": "Факелы, стрелы"
+    },
+    {
+      "prefab": "Tar",
+      "nameRu": "Дёготь",
+      "category": "Материалы",
+      "nameEn": "Tar",
+      "note": "Равнины, тёмная древесина"
+    },
+    {
+      "prefab": "Coal",
+      "nameRu": "Уголь",
+      "category": "Материалы",
+      "nameEn": "Coal",
+      "note": "Угольная яма"
+    },
+    {
+      "prefab": "Feathers",
+      "nameRu": "Перья",
+      "category": "Материалы",
+      "nameEn": "Feathers",
+      "note": "ID во множественном числе: Feathers"
+    },
+    {
+      "prefab": "LeatherScraps",
+      "nameRu": "Обрезки кожи",
+      "category": "Материалы",
+      "nameEn": "Leather Scraps",
+      "note": "Кабаны"
+    },
+    {
+      "prefab": "DeerHide",
+      "nameRu": "Оленья шкура",
+      "category": "Материалы",
+      "nameEn": "Deer Hide",
+      "note": "Олени"
+    },
+    {
+      "prefab": "TrollHide",
+      "nameRu": "Шкура тролля",
+      "category": "Материалы",
+      "nameEn": "Troll Hide",
+      "note": "Тролли"
+    },
+    {
+      "prefab": "WolfPelt",
+      "nameRu": "Волчья шкура",
+      "category": "Материалы",
+      "nameEn": "Wolf Pelt",
+      "note": "Волки"
+    },
+    {
+      "prefab": "LoxPelt",
+      "nameRu": "Шкура локса",
+      "category": "Материалы",
+      "nameEn": "Lox Pelt",
+      "note": "Локсы"
+    },
+    {
+      "prefab": "BjornHide",
+      "nameRu": "Медвежья шкура",
+      "category": "Материалы",
+      "nameEn": "Bear Hide",
+      "note": "Медведи (Deep North)"
+    },
+    {
+      "prefab": "AskHide",
+      "nameRu": "Шкура асксвина",
+      "category": "Материалы",
+      "nameEn": "Asksvin Hide",
+      "note": "Пепельные земли"
+    },
+    {
+      "prefab": "MooseHide",
+      "nameRu": "Лосиная шкура",
+      "category": "Материалы",
+      "nameEn": "Moose Hide",
+      "note": "Лоси (Deep North)"
+    },
+    {
+      "prefab": "SealHide",
+      "nameRu": "Тюленья шкура",
+      "category": "Материалы",
+      "nameEn": "Seal Pelt",
+      "note": "Тюлени (Deep North)"
+    },
+    {
+      "prefab": "ScaleHide",
+      "nameRu": "Чешуйчатая шкура",
+      "category": "Материалы",
+      "nameEn": "Scale Hide",
+      "note": "Драуги, змеи"
+    },
+    {
+      "prefab": "SerpentScale",
+      "nameRu": "Чешуя змея",
+      "category": "Материалы",
+      "nameEn": "Serpent Scale",
+      "note": "Морской змей"
+    },
+    {
+      "prefab": "Needle",
+      "nameRu": "Жало смерти",
+      "category": "Материалы",
+      "nameEn": "Needle",
+      "note": "Deathsquito"
+    },
+    {
+      "prefab": "Obsidian",
+      "nameRu": "Обсидиан",
+      "category": "Материалы",
+      "nameEn": "Obsidian",
+      "note": "Горы"
+    },
+    {
+      "prefab": "Chitin",
+      "nameRu": "Хитин",
+      "category": "Материалы",
+      "nameEn": "Chitin",
+      "note": "Левиафаны"
+    },
+    {
+      "prefab": "Carapace",
+      "nameRu": "Панцирь",
+      "category": "Материалы",
+      "nameEn": "Carapace",
+      "note": "Мглистые земли"
+    },
+    {
+      "prefab": "BonemawSerpentScale",
+      "nameRu": "Чешуя бонемо",
+      "category": "Материалы",
+      "nameEn": "Bonemaw Scale",
+      "note": "Bonemaw Serpent"
+    },
+    {
+      "prefab": "Crystal",
+      "nameRu": "Кристалл",
+      "category": "Материалы",
+      "nameEn": "Crystal",
+      "note": "Горные пещеры"
+    },
+    {
+      "prefab": "GreydwarfEye",
+      "nameRu": "Глаз серодверга",
+      "category": "Материалы",
+      "nameEn": "Greydwarf Eye",
+      "note": "Серодверги"
+    },
+    {
+      "prefab": "BoneFragments",
+      "nameRu": "Обломки костей",
+      "category": "Материалы",
+      "nameEn": "Bone Fragments",
+      "note": "Скелеты"
+    },
+    {
+      "prefab": "Guck",
+      "nameRu": "Слизь",
+      "category": "Материалы",
+      "nameEn": "Guck",
+      "note": "Болотные блобы"
+    },
+    {
+      "prefab": "SurtlingCore",
+      "nameRu": "Ядро суртлинга",
+      "category": "Материалы",
+      "nameEn": "Surtling Core",
+      "note": "Порталы, печи"
+    },
+    {
+      "prefab": "MoltenCore",
+      "nameRu": "Расплавленное ядро",
+      "category": "Материалы",
+      "nameEn": "Molten Core",
+      "note": "Пепельные земли"
+    },
+    {
+      "prefab": "BlackCore",
+      "nameRu": "Чёрное ядро",
+      "category": "Материалы",
+      "nameEn": "Black Core",
+      "note": "Мглистые земли"
+    },
+    {
+      "prefab": "FrostCore",
+      "nameRu": "Морозное ядро",
+      "category": "Материалы",
+      "nameEn": "Frostcore",
+      "note": "Горы"
+    },
+    {
+      "prefab": "DragonTear",
+      "nameRu": "Слеза дракона",
+      "category": "Материалы",
+      "nameEn": "Dragon Tear",
+      "note": "Модер"
+    },
+    {
+      "prefab": "WitheredBone",
+      "nameRu": "Иссохшая кость",
+      "category": "Материалы",
+      "nameEn": "Withered Bone",
+      "note": "Болото"
+    },
+    {
+      "prefab": "Thunderstone",
+      "nameRu": "Громовой камень",
+      "category": "Материалы",
+      "nameEn": "Thunder Stone",
+      "note": "Пепельные земли"
+    },
+    {
+      "prefab": "Softtissue",
+      "nameRu": "Мягкая ткань",
+      "category": "Материалы",
+      "nameEn": "Soft Tissue",
+      "note": "Мглистые земли"
+    },
+    {
+      "prefab": "Sap",
+      "nameRu": "Сок",
+      "category": "Материалы",
+      "nameEn": "Sap",
+      "note": "Подсочка берёз"
+    },
+    {
+      "prefab": "RoyalJelly",
+      "nameRu": "Королевское желе",
+      "category": "Материалы",
+      "nameEn": "Royal Jelly",
+      "note": "Ульи"
+    },
+    {
+      "prefab": "QueenBee",
+      "nameRu": "Пчелиная матка",
+      "category": "Материалы",
+      "nameEn": "Queen Bee",
+      "note": "Улей"
+    },
+    {
+      "prefab": "Chain",
+      "nameRu": "Цепь",
+      "category": "Материалы",
+      "nameEn": "Chain",
+      "note": "Сундуки"
+    },
+    {
+      "prefab": "BronzeNails",
+      "nameRu": "Бронзовые гвозди",
+      "category": "Материалы",
+      "nameEn": "Bronze Nails",
+      "note": "Корабли, стройка"
+    },
+    {
+      "prefab": "IronNails",
+      "nameRu": "Железные гвозди",
+      "category": "Материалы",
+      "nameEn": "Iron Nails",
+      "note": "Стройка"
+    },
+    {
+      "prefab": "LinenThread",
+      "nameRu": "Льняная нить",
+      "category": "Материалы",
+      "nameEn": "Linen Thread",
+      "note": "Лён, ткань"
+    },
+    {
+      "prefab": "JuteRed",
+      "nameRu": "Красный джут",
+      "category": "Материалы",
+      "nameEn": "Red Jute",
+      "note": "Порядок слов: JuteRed, не RedJute"
+    },
+    {
+      "prefab": "JuteBlue",
+      "nameRu": "Синий джут",
+      "category": "Материалы",
+      "nameEn": "Blue Jute",
+      "note": "Порядок слов: JuteBlue"
+    },
+    {
+      "prefab": "Leatherstraps",
+      "nameRu": "Кожаные ремни",
+      "category": "Материалы",
+      "nameEn": "Leather Straps",
+      "note": "Крафт"
+    },
+    {
+      "prefab": "BarrelRings",
+      "nameRu": "Обручи для бочки",
+      "category": "Материалы",
+      "nameEn": "Barrel Hoops",
+      "note": "Крафт"
+    },
+    {
+      "prefab": "CeramicPlate",
+      "nameRu": "Керамическая пластина",
+      "category": "Материалы",
+      "nameEn": "Ceramic Plate",
+      "note": "Пепельные земли"
+    },
+    {
+      "prefab": "Grausten",
+      "nameRu": "Граустен",
+      "category": "Материалы",
+      "nameEn": "Grausten",
+      "note": "Пепельные земли, стройка"
+    },
+    {
+      "prefab": "BlackMarble",
+      "nameRu": "Чёрный мрамор",
+      "category": "Материалы",
+      "nameEn": "Black Marble",
+      "note": "Мглистые земли, стройка"
+    },
+    {
+      "prefab": "CharredBone",
+      "nameRu": "Обугленная кость",
+      "category": "Материалы",
+      "nameEn": "Charred Bone",
+      "note": "Пепельные земли"
+    },
+    {
+      "prefab": "CharredCogwheel",
+      "nameRu": "Обугленное зубчатое колесо",
+      "category": "Материалы",
+      "nameEn": "Charred Cogwheel",
+      "note": "Пепельные земли"
+    },
+    {
+      "prefab": "Eitr",
+      "nameRu": "Очищенный эйтр",
+      "category": "Материалы",
+      "nameEn": "Refined Eitr",
+      "note": "Мглистые земли, магия"
+    },
+    {
+      "prefab": "SulfurStone",
+      "nameRu": "Сера",
+      "category": "Материалы",
+      "nameEn": "Sulfur",
+      "note": "Пепельные земли"
+    },
+    {
+      "prefab": "ProustitePowder",
+      "nameRu": "Пруститовый порошок",
+      "category": "Материалы",
+      "nameEn": "Proustite Powder",
+      "note": "Пепельные земли"
+    },
+    {
+      "prefab": "FragrantBundle",
+      "nameRu": "Ароматный пучок",
+      "category": "Материалы",
+      "nameEn": "Fragrant Bundle",
+      "note": "Мглистые земли"
+    },
+    {
+      "prefab": "MushroomJotunPuffs",
+      "nameRu": "Йотунские пуховки",
+      "category": "Материалы",
+      "nameEn": "Jotun Puffs",
+      "note": "Мглистые земли"
+    },
+    {
+      "prefab": "MushroomMagecap",
+      "nameRu": "Магшапка",
+      "category": "Материалы",
+      "nameEn": "Magecap",
+      "note": "Мглистые земли"
+    },
+    {
+      "prefab": "Barley",
+      "nameRu": "Ячмень",
+      "category": "Материалы",
+      "nameEn": "Barley",
+      "note": "Равнины"
+    },
+    {
+      "prefab": "Flax",
+      "nameRu": "Лён",
+      "category": "Материалы",
+      "nameEn": "Flax",
+      "note": "Равнины"
+    },
+    {
+      "prefab": "Oat",
+      "nameRu": "Овёс",
+      "category": "Материалы",
+      "nameEn": "Oats",
+      "note": "Deep North"
+    },
+    {
+      "prefab": "AncientSeed",
+      "nameRu": "Древнее семя",
+      "category": "Материалы",
+      "nameEn": "Ancient Seed",
+      "note": "Босс-призыв"
+    },
+    {
+      "prefab": "DragonEgg",
+      "nameRu": "Яйцо дракона",
+      "category": "Материалы",
+      "nameEn": "Dragon Egg",
+      "note": "Призыв Модера"
+    },
+    {
+      "prefab": "YmirRemains",
+      "nameRu": "Плоть Имира",
+      "category": "Материалы",
+      "nameEn": "Ymir Flesh",
+      "note": "Редкий крафт"
+    },
+    {
+      "prefab": "Mandible",
+      "nameRu": "Мандибула",
+      "category": "Материалы",
+      "nameEn": "Mandible",
+      "note": "Пепельные земли"
+    },
+    {
+      "prefab": "Wisp",
+      "nameRu": "Огонёк",
+      "category": "Материалы",
+      "nameEn": "Wisp",
+      "note": "Мглистые земли"
+    },
+    {
+      "prefab": "CopperOre",
+      "nameRu": "Медная руда",
+      "category": "Руды и слитки",
+      "nameEn": "Copper Ore",
+      "note": "Чёрный лес"
+    },
+    {
+      "prefab": "Copper",
+      "nameRu": "Медь",
+      "category": "Руды и слитки",
+      "nameEn": "Copper",
+      "note": "Плавильня"
+    },
+    {
+      "prefab": "TinOre",
+      "nameRu": "Оловянная руда",
+      "category": "Руды и слитки",
+      "nameEn": "Tin Ore",
+      "note": "Побережье"
+    },
+    {
+      "prefab": "Tin",
+      "nameRu": "Олово",
+      "category": "Руды и слитки",
+      "nameEn": "Tin",
+      "note": "Плавильня"
+    },
+    {
+      "prefab": "Bronze",
+      "nameRu": "Бронза",
+      "category": "Руды и слитки",
+      "nameEn": "Bronze",
+      "note": "Медь + олово"
+    },
+    {
+      "prefab": "IronOre",
+      "nameRu": "Железная руда",
+      "category": "Руды и слитки",
+      "nameEn": "Iron Ore",
+      "note": "Болото, крипты"
+    },
+    {
+      "prefab": "Iron",
+      "nameRu": "Железо",
+      "category": "Руды и слитки",
+      "nameEn": "Iron",
+      "note": "Средний тир"
+    },
+    {
+      "prefab": "IronScrap",
+      "nameRu": "Железный лом",
+      "category": "Руды и слитки",
+      "nameEn": "Scrap Iron",
+      "note": "Болото"
+    },
+    {
+      "prefab": "SilverOre",
+      "nameRu": "Серебряная руда",
+      "category": "Руды и слитки",
+      "nameEn": "Silver Ore",
+      "note": "Горы"
+    },
+    {
+      "prefab": "Silver",
+      "nameRu": "Серебро",
+      "category": "Руды и слитки",
+      "nameEn": "Silver",
+      "note": "Горный тир"
+    },
+    {
+      "prefab": "BlackMetalScrap",
+      "nameRu": "Обломки чёрного металла",
+      "category": "Руды и слитки",
+      "nameEn": "Black Metal Scrap",
+      "note": "Фулинги"
+    },
+    {
+      "prefab": "BlackMetal",
+      "nameRu": "Чёрный металл",
+      "category": "Руды и слитки",
+      "nameEn": "Black Metal",
+      "note": "Из обломков"
+    },
+    {
+      "prefab": "FlametalNew",
+      "nameRu": "Фламеталл",
+      "category": "Руды и слитки",
+      "nameEn": "Flametal",
+      "note": "Актуальный ID: FlametalNew"
+    },
+    {
+      "prefab": "Flametal",
+      "nameRu": "Древний металл",
+      "category": "Руды и слитки",
+      "nameEn": "Ancient Metal",
+      "note": "Flametal = Ancient Metal (старый ID)"
+    },
+    {
+      "prefab": "FlametalOreNew",
+      "nameRu": "Руда фламеталла",
+      "category": "Руды и слитки",
+      "nameEn": "Flametal Ore",
+      "note": "Пепельные земли"
+    },
+    {
+      "prefab": "Gold",
+      "nameRu": "Кровавое золото",
+      "category": "Руды и слитки",
+      "nameEn": "Bloodgold",
+      "note": "Bloodgold"
+    },
+    {
+      "prefab": "Coins",
+      "nameRu": "Монеты",
+      "category": "Руды и слитки",
+      "nameEn": "Coins",
+      "note": "Торговля"
+    },
+    {
+      "prefab": "CookedMeat",
+      "nameRu": "Жареное мясо кабана",
+      "category": "Еда",
+      "nameEn": "Cooked Boar Meat",
+      "note": "Cooked Boar Meat"
+    },
+    {
+      "prefab": "CookedDeerMeat",
+      "nameRu": "Жареное оленье мясо",
+      "category": "Еда",
+      "nameEn": "Cooked Deer Meat"
+    },
+    {
+      "prefab": "CookedWolfMeat",
+      "nameRu": "Жареное волчье мясо",
+      "category": "Еда",
+      "nameEn": "Cooked Wolf Meat"
+    },
+    {
+      "prefab": "CookedLoxMeat",
+      "nameRu": "Жареное мясо локса",
+      "category": "Еда",
+      "nameEn": "Cooked Lox Meat"
+    },
+    {
+      "prefab": "CookedBjornMeat",
+      "nameRu": "Жареное медвежье мясо",
+      "category": "Еда",
+      "nameEn": "Cooked Bear Meat"
+    },
+    {
+      "prefab": "CookedMooseMeat",
+      "nameRu": "Жареное лосиное мясо",
+      "category": "Еда",
+      "nameEn": "Cooked Moose Meat"
+    },
+    {
+      "prefab": "CookedHareMeat",
+      "nameRu": "Жареное мясо зайца",
+      "category": "Еда",
+      "nameEn": "Cooked Hare Meat"
+    },
+    {
+      "prefab": "CookedSealBlubber",
+      "nameRu": "Жареный тюлений жир",
+      "category": "Еда",
+      "nameEn": "Cooked Seal Blubber"
+    },
+    {
+      "prefab": "CookedVoltureMeat",
+      "nameRu": "Жареное мясо вольтура",
+      "category": "Еда",
+      "nameEn": "Cooked Volture Meat"
+    },
+    {
+      "prefab": "CookedChickenMeat",
+      "nameRu": "Жареная курица",
+      "category": "Еда",
+      "nameEn": "Cooked Chicken Meat"
+    },
+    {
+      "prefab": "CookedEgg",
+      "nameRu": "Варёное яйцо",
+      "category": "Еда",
+      "nameEn": "Cooked Egg"
+    },
+    {
+      "prefab": "CookedBugMeat",
+      "nameRu": "Жареное мясо сикера",
+      "category": "Еда",
+      "nameEn": "Cooked Seeker Meat"
+    },
+    {
+      "prefab": "CookedAsksvinMeat",
+      "nameRu": "Жареный хвост асксвина",
+      "category": "Еда",
+      "nameEn": "Cooked Asksvin Tail"
+    },
+    {
+      "prefab": "CookedBoneMawSerpentMeat",
+      "nameRu": "Жареное мясо бонемо",
+      "category": "Еда",
+      "nameEn": "Cooked Bonemaw Meat"
+    },
+    {
+      "prefab": "FishCooked",
+      "nameRu": "Жареная рыба",
+      "category": "Еда",
+      "nameEn": "Cooked Fish",
+      "note": "ID: FishCooked"
+    },
+    {
+      "prefab": "FishRaw",
+      "nameRu": "Сырая рыба",
+      "category": "Еда",
+      "nameEn": "Raw Fish"
+    },
+    {
+      "prefab": "FishAndBread",
+      "nameRu": "Рыба с хлебом",
+      "category": "Еда",
+      "nameEn": "Fish 'n' Bread"
+    },
+    {
+      "prefab": "NeckTailGrilled",
+      "nameRu": "Жареный хвост нека",
+      "category": "Еда",
+      "nameEn": "Grilled Neck Tail"
+    },
+    {
+      "prefab": "SerpentMeatCooked",
+      "nameRu": "Жареное мясо змея",
+      "category": "Еда",
+      "nameEn": "Cooked Serpent Meat"
+    },
+    {
+      "prefab": "Bread",
+      "nameRu": "Хлеб",
+      "category": "Еда",
+      "nameEn": "Bread"
+    },
+    {
+      "prefab": "BarleyFlour",
+      "nameRu": "Ячменная мука",
+      "category": "Еда",
+      "nameEn": "Barley Flour"
+    },
+    {
+      "prefab": "BreadDough",
+      "nameRu": "Тесто",
+      "category": "Еда",
+      "nameEn": "Bread Dough"
+    },
+    {
+      "prefab": "QueensJam",
+      "nameRu": "Королевское варенье",
+      "category": "Еда",
+      "nameEn": "Queen's Jam"
+    },
+    {
+      "prefab": "TurnipStew",
+      "nameRu": "Похлёбка из репы",
+      "category": "Еда",
+      "nameEn": "Turnip Stew"
+    },
+    {
+      "prefab": "CarrotSoup",
+      "nameRu": "Морковный суп",
+      "category": "Еда",
+      "nameEn": "Carrot Soup"
+    },
+    {
+      "prefab": "OnionSoup",
+      "nameRu": "Луковый суп",
+      "category": "Еда",
+      "nameEn": "Onion Soup"
+    },
+    {
+      "prefab": "Sausages",
+      "nameRu": "Колбаски",
+      "category": "Еда",
+      "nameEn": "Sausages",
+      "note": "ID во множественном числе: Sausages"
+    },
+    {
+      "prefab": "DeerStew",
+      "nameRu": "Оленье рагу",
+      "category": "Еда",
+      "nameEn": "Deer Stew"
+    },
+    {
+      "prefab": "BloodPudding",
+      "nameRu": "Кровяной пудинг",
+      "category": "Еда",
+      "nameEn": "Blood Pudding"
+    },
+    {
+      "prefab": "BlackSoup",
+      "nameRu": "Чёрный суп",
+      "category": "Еда",
+      "nameEn": "Black Soup"
+    },
+    {
+      "prefab": "Eyescream",
+      "nameRu": "Мороженое из глаз",
+      "category": "Еда",
+      "nameEn": "Eyescream"
+    },
+    {
+      "prefab": "MinceMeatSauce",
+      "nameRu": "Соус с фаршем",
+      "category": "Еда",
+      "nameEn": "Minced Meat Sauce"
+    },
+    {
+      "prefab": "FishWraps",
+      "nameRu": "Рыбные рулеты",
+      "category": "Еда",
+      "nameEn": "Fish Wraps"
+    },
+    {
+      "prefab": "LoxPie",
+      "nameRu": "Пирог с локсом",
+      "category": "Еда",
+      "nameEn": "Lox Meat Pie"
+    },
+    {
+      "prefab": "MisthareSupreme",
+      "nameRu": "Мглистый заяц по-королевски",
+      "category": "Еда",
+      "nameEn": "Misthare Supreme"
+    },
+    {
+      "prefab": "HoneyGlazedChicken",
+      "nameRu": "Курица в меду",
+      "category": "Еда",
+      "nameEn": "Honey Glazed Chicken"
+    },
+    {
+      "prefab": "Salad",
+      "nameRu": "Салат",
+      "category": "Еда",
+      "nameEn": "Salad"
+    },
+    {
+      "prefab": "MushroomOmelette",
+      "nameRu": "Грибной омлет",
+      "category": "Еда",
+      "nameEn": "Mushroom Omelette"
+    },
+    {
+      "prefab": "YggdrasilPorridge",
+      "nameRu": "Каша Иггдрасиля",
+      "category": "Еда",
+      "nameEn": "Yggdrasil Porridge"
+    },
+    {
+      "prefab": "SeekerAspic",
+      "nameRu": "Заливное из сикера",
+      "category": "Еда",
+      "nameEn": "Seeker Aspic"
+    },
+    {
+      "prefab": "MarinatedGreens",
+      "nameRu": "Маринованная зелень",
+      "category": "Еда",
+      "nameEn": "Marinated Greens"
+    },
+    {
+      "prefab": "MashedMeat",
+      "nameRu": "Мясное пюре",
+      "category": "Еда",
+      "nameEn": "Mashed Meat"
+    },
+    {
+      "prefab": "MeatPlatter",
+      "nameRu": "Мясное ассорти",
+      "category": "Еда",
+      "nameEn": "Meat Platter"
+    },
+    {
+      "prefab": "PiquantPie",
+      "nameRu": "Пикантный пирог",
+      "category": "Еда",
+      "nameEn": "Piquant Pie"
+    },
+    {
+      "prefab": "RoastedCrustPie",
+      "nameRu": "Пирог с корочкой",
+      "category": "Еда",
+      "nameEn": "Roasted Crust Pie"
+    },
+    {
+      "prefab": "OatmealLingonberryJam",
+      "nameRu": "Овсянка с брусникой",
+      "category": "Еда",
+      "nameEn": "Oatmeal"
+    },
+    {
+      "prefab": "Honey",
+      "nameRu": "Мёд",
+      "category": "Еда",
+      "nameEn": "Honey"
+    },
+    {
+      "prefab": "Raspberry",
+      "nameRu": "Малина",
+      "category": "Еда",
+      "nameEn": "Raspberries"
+    },
+    {
+      "prefab": "Blueberries",
+      "nameRu": "Черника",
+      "category": "Еда",
+      "nameEn": "Blueberries"
+    },
+    {
+      "prefab": "Cloudberry",
+      "nameRu": "Морошка",
+      "category": "Еда",
+      "nameEn": "Cloudberries"
+    },
+    {
+      "prefab": "Lingonberry",
+      "nameRu": "Брусника",
+      "category": "Еда",
+      "nameEn": "Lingonberries"
+    },
+    {
+      "prefab": "Mushroom",
+      "nameRu": "Гриб",
+      "category": "Еда",
+      "nameEn": "Mushroom"
+    },
+    {
+      "prefab": "MushroomBlue",
+      "nameRu": "Синий гриб",
+      "category": "Еда",
+      "nameEn": "Blue Mushroom"
+    },
+    {
+      "prefab": "MushroomYellow",
+      "nameRu": "Жёлтый гриб",
+      "category": "Еда",
+      "nameEn": "Yellow Mushroom"
+    },
+    {
+      "prefab": "Dandelion",
+      "nameRu": "Одуванчик",
+      "category": "Еда",
+      "nameEn": "Dandelion"
+    },
+    {
+      "prefab": "Thistle",
+      "nameRu": "Чертополох",
+      "category": "Еда",
+      "nameEn": "Thistle"
+    },
+    {
+      "prefab": "Carrot",
+      "nameRu": "Морковь",
+      "category": "Еда",
+      "nameEn": "Carrot"
+    },
+    {
+      "prefab": "Turnip",
+      "nameRu": "Репа",
+      "category": "Еда",
+      "nameEn": "Turnip"
+    },
+    {
+      "prefab": "Onion",
+      "nameRu": "Лук",
+      "category": "Еда",
+      "nameEn": "Onion"
+    },
+    {
+      "prefab": "Kale",
+      "nameRu": "Капуста кейл",
+      "category": "Еда",
+      "nameEn": "Kale"
+    },
+    {
+      "prefab": "Fiddleheadfern",
+      "nameRu": "Папоротник",
+      "category": "Еда",
+      "nameEn": "Fiddlehead"
+    },
+    {
+      "prefab": "Poteitr",
+      "nameRu": "Потейтр",
+      "category": "Еда",
+      "nameEn": "Poteitr",
+      "note": "Deep North"
+    },
+    {
+      "prefab": "Vineberry",
+      "nameRu": "Виноградная гроздь",
+      "category": "Еда",
+      "nameEn": "Vineberry Cluster"
+    },
+    {
+      "prefab": "ChickenEgg",
+      "nameRu": "Яйцо",
+      "category": "Еда",
+      "nameEn": "Egg"
+    },
+    {
+      "prefab": "VoltureEgg",
+      "nameRu": "Яйцо вольтура",
+      "category": "Еда",
+      "nameEn": "Volture Egg"
+    },
+    {
+      "prefab": "AsksvinEgg",
+      "nameRu": "Яйцо асксвина",
+      "category": "Еда",
+      "nameEn": "Asksvin Egg"
+    },
+    {
+      "prefab": "MeadHealthMinor",
+      "nameRu": "Малый лечебный мёд",
+      "category": "Мёды",
+      "nameEn": "Minor Healing Mead"
+    },
+    {
+      "prefab": "MeadHealthMedium",
+      "nameRu": "Средний лечебный мёд",
+      "category": "Мёды",
+      "nameEn": "Medium Healing Mead"
+    },
+    {
+      "prefab": "MeadHealthMajor",
+      "nameRu": "Большой лечебный мёд",
+      "category": "Мёды",
+      "nameEn": "Major Healing Mead"
+    },
+    {
+      "prefab": "MeadHealthLingering",
+      "nameRu": "Длительный лечебный мёд",
+      "category": "Мёды",
+      "nameEn": "Lingering Healing Mead"
+    },
+    {
+      "prefab": "MeadStaminaMinor",
+      "nameRu": "Малый мёд выносливости",
+      "category": "Мёды",
+      "nameEn": "Minor Stamina Mead"
+    },
+    {
+      "prefab": "MeadStaminaMedium",
+      "nameRu": "Средний мёд выносливости",
+      "category": "Мёды",
+      "nameEn": "Medium Stamina Mead"
+    },
+    {
+      "prefab": "MeadStaminaLingering",
+      "nameRu": "Длительный мёд выносливости",
+      "category": "Мёды",
+      "nameEn": "Lingering Stamina Mead",
+      "note": "Мёда «major» на выносливость нет"
+    },
+    {
+      "prefab": "MeadEitrMinor",
+      "nameRu": "Малый мёд эйтра",
+      "category": "Мёды",
+      "nameEn": "Minor Eitr Mead"
+    },
+    {
+      "prefab": "MeadEitrLingering",
+      "nameRu": "Длительный мёд эйтра",
+      "category": "Мёды",
+      "nameEn": "Lingering Eitr Mead"
+    },
+    {
+      "prefab": "MeadPoisonResist",
+      "nameRu": "Мёд от яда",
+      "category": "Мёды",
+      "nameEn": "Poison Resistance Mead"
+    },
+    {
+      "prefab": "MeadFrostResist",
+      "nameRu": "Мёд от мороза",
+      "category": "Мёды",
+      "nameEn": "Frost Resistance Mead"
+    },
+    {
+      "prefab": "MeadTasty",
+      "nameRu": "Вкусный мёд",
+      "category": "Мёды",
+      "nameEn": "Tasty Mead"
+    },
+    {
+      "prefab": "MeadStrength",
+      "nameRu": "Мёд силы тролля",
+      "category": "Мёды",
+      "nameEn": "Mead of Troll Endurance"
+    },
+    {
+      "prefab": "MeadHasty",
+      "nameRu": "Тоник Рататоска",
+      "category": "Мёды",
+      "nameEn": "Tonic of Ratatosk"
+    },
+    {
+      "prefab": "MeadLightfoot",
+      "nameRu": "Мёд легкой поступи",
+      "category": "Мёды",
+      "nameEn": "Lightfoot Mead"
+    },
+    {
+      "prefab": "MeadSwimmer",
+      "nameRu": "Драже Вананидир",
+      "category": "Мёды",
+      "nameEn": "Draught of Vananidir"
+    },
+    {
+      "prefab": "MeadTamer",
+      "nameRu": "Варево укрощения",
+      "category": "Мёды",
+      "nameEn": "Brew of Animal Whispers"
+    },
+    {
+      "prefab": "MeadBzerker",
+      "nameRu": "Мёд берсерка",
+      "category": "Мёды",
+      "nameEn": "Berserkir Mead"
+    },
+    {
+      "prefab": "MeadBugRepellent",
+      "nameRu": "Средство от жал",
+      "category": "Мёды",
+      "nameEn": "Anti-Sting Concoction"
+    },
+    {
+      "prefab": "BarleyWine",
+      "nameRu": "Ячменное вино",
+      "category": "Мёды",
+      "nameEn": "Fire Resistance Barley Wine",
+      "note": "Сопротивление огню"
+    },
+    {
+      "prefab": "SwordWood",
+      "nameRu": "Деревянный меч",
+      "category": "Оружие",
+      "nameEn": "Wooden Sword"
+    },
+    {
+      "prefab": "SwordBronze",
+      "nameRu": "Бронзовый меч",
+      "category": "Оружие",
+      "nameEn": "Bronze Sword"
+    },
+    {
+      "prefab": "SwordIron",
+      "nameRu": "Железный меч",
+      "category": "Оружие",
+      "nameEn": "Iron Sword"
+    },
+    {
+      "prefab": "SwordSilver",
+      "nameRu": "Серебряный меч",
+      "category": "Оружие",
+      "nameEn": "Silver Sword"
+    },
+    {
+      "prefab": "SwordBlackmetal",
+      "nameRu": "Меч из чёрного металла",
+      "category": "Оружие",
+      "nameEn": "Black Metal Sword",
+      "note": "SwordBlackmetal, не SwordBlackMetal"
+    },
+    {
+      "prefab": "SwordMistwalker",
+      "nameRu": "Туманный странник",
+      "category": "Оружие",
+      "nameEn": "Mistwalker"
+    },
+    {
+      "prefab": "SwordDyrnwyn",
+      "nameRu": "Дюрнвин",
+      "category": "Оружие",
+      "nameEn": "Dyrnwyn"
+    },
+    {
+      "prefab": "AxeStone",
+      "nameRu": "Каменный топор",
+      "category": "Оружие",
+      "nameEn": "Stone Axe"
+    },
+    {
+      "prefab": "AxeFlint",
+      "nameRu": "Кремнёвый топор",
+      "category": "Оружие",
+      "nameEn": "Flint Axe"
+    },
+    {
+      "prefab": "AxeBronze",
+      "nameRu": "Бронзовый топор",
+      "category": "Оружие",
+      "nameEn": "Bronze Axe"
+    },
+    {
+      "prefab": "AxeIron",
+      "nameRu": "Железный топор",
+      "category": "Оружие",
+      "nameEn": "Iron Axe"
+    },
+    {
+      "prefab": "AxeBlackMetal",
+      "nameRu": "Топор из чёрного металла",
+      "category": "Оружие",
+      "nameEn": "Black Metal Axe",
+      "note": "AxeBlackMetal с заглавной M"
+    },
+    {
+      "prefab": "AxeJotunBane",
+      "nameRu": "Погибель йотунов",
+      "category": "Оружие",
+      "nameEn": "Jotun Bane"
+    },
+    {
+      "prefab": "AtgeirWood",
+      "nameRu": "Деревянный атгейр",
+      "category": "Оружие",
+      "nameEn": "Wooden Atgeir"
+    },
+    {
+      "prefab": "AtgeirBronze",
+      "nameRu": "Бронзовый атгейр",
+      "category": "Оружие",
+      "nameEn": "Bronze Atgeir"
+    },
+    {
+      "prefab": "AtgeirIron",
+      "nameRu": "Железный атгейр",
+      "category": "Оружие",
+      "nameEn": "Iron Atgeir"
+    },
+    {
+      "prefab": "AtgeirBlackmetal",
+      "nameRu": "Атгейр из чёрного металла",
+      "category": "Оружие",
+      "nameEn": "Black Metal Atgeir"
+    },
+    {
+      "prefab": "AtgeirHimminAfl",
+      "nameRu": "Химминафль",
+      "category": "Оружие",
+      "nameEn": "Himminafl"
+    },
+    {
+      "prefab": "MaceWood",
+      "nameRu": "Деревянная булава",
+      "category": "Оружие",
+      "nameEn": "Wooden Mace"
+    },
+    {
+      "prefab": "MaceBronze",
+      "nameRu": "Бронзовая булава",
+      "category": "Оружие",
+      "nameEn": "Bronze Mace"
+    },
+    {
+      "prefab": "MaceIron",
+      "nameRu": "Железная булава",
+      "category": "Оружие",
+      "nameEn": "Iron Mace"
+    },
+    {
+      "prefab": "MaceSilver",
+      "nameRu": "Фростнер",
+      "category": "Оружие",
+      "nameEn": "Frostner",
+      "note": "MaceSilver = Frostner"
+    },
+    {
+      "prefab": "MaceNeedle",
+      "nameRu": "Поркупайн",
+      "category": "Оружие",
+      "nameEn": "Porcupine",
+      "note": "MaceNeedle = Porcupine"
+    },
+    {
+      "prefab": "MaceEldner",
+      "nameRu": "Булава из фламеталла",
+      "category": "Оружие",
+      "nameEn": "Flametal Mace"
+    },
+    {
+      "prefab": "KnifeWood",
+      "nameRu": "Деревянный нож",
+      "category": "Оружие",
+      "nameEn": "Wooden Knife"
+    },
+    {
+      "prefab": "KnifeFlint",
+      "nameRu": "Кремнёвый нож",
+      "category": "Оружие",
+      "nameEn": "Flint Knife"
+    },
+    {
+      "prefab": "KnifeCopper",
+      "nameRu": "Медный нож",
+      "category": "Оружие",
+      "nameEn": "Copper Knife"
+    },
+    {
+      "prefab": "KnifeSilver",
+      "nameRu": "Серебряный нож",
+      "category": "Оружие",
+      "nameEn": "Silver Knife"
+    },
+    {
+      "prefab": "KnifeBlackMetal",
+      "nameRu": "Нож из чёрного металла",
+      "category": "Оружие",
+      "nameEn": "Black Metal Knife"
+    },
+    {
+      "prefab": "KnifeChitin",
+      "nameRu": "Абиссальная бритва",
+      "category": "Оружие",
+      "nameEn": "Abyssal Razor"
+    },
+    {
+      "prefab": "KnifeSkollAndHati",
+      "nameRu": "Сколль и Хати",
+      "category": "Оружие",
+      "nameEn": "Skoll and Hati"
+    },
+    {
+      "prefab": "SpearWood",
+      "nameRu": "Деревянное копьё",
+      "category": "Оружие",
+      "nameEn": "Wooden Spear"
+    },
+    {
+      "prefab": "SpearFlint",
+      "nameRu": "Кремнёвое копьё",
+      "category": "Оружие",
+      "nameEn": "Flint Spear"
+    },
+    {
+      "prefab": "SpearBronze",
+      "nameRu": "Бронзовое копьё",
+      "category": "Оружие",
+      "nameEn": "Bronze Spear"
+    },
+    {
+      "prefab": "SpearWolfFang",
+      "nameRu": "Копьё из волчьего клыка",
+      "category": "Оружие",
+      "nameEn": "Fang Spear"
+    },
+    {
+      "prefab": "SpearElderbark",
+      "nameRu": "Копьё из древней коры",
+      "category": "Оружие",
+      "nameEn": "Ancient Bark Spear"
+    },
+    {
+      "prefab": "SpearChitin",
+      "nameRu": "Абиссальный гарпун",
+      "category": "Оружие",
+      "nameEn": "Abyssal Harpoon"
+    },
+    {
+      "prefab": "SpearCarapace",
+      "nameRu": "Копьё из панциря",
+      "category": "Оружие",
+      "nameEn": "Carapace Spear"
+    },
+    {
+      "prefab": "SpearSplitner",
+      "nameRu": "Сплитнир",
+      "category": "Оружие",
+      "nameEn": "Splitnir"
+    },
+    {
+      "prefab": "Battleaxe",
+      "nameRu": "Боевой топор",
+      "category": "Оружие",
+      "nameEn": "Battleaxe"
+    },
+    {
+      "prefab": "BattleaxeBlackmetal",
+      "nameRu": "Боевой топор из чёрного металла",
+      "category": "Оружие",
+      "nameEn": "Black Metal Battleaxe"
+    },
+    {
+      "prefab": "BattleaxeCrystal",
+      "nameRu": "Кристаллический боевой топор",
+      "category": "Оружие",
+      "nameEn": "Crystal Battleaxe"
+    },
+    {
+      "prefab": "BattleaxeSkullSplittur",
+      "nameRu": "Черепокол",
+      "category": "Оружие",
+      "nameEn": "Skull Splittur"
+    },
+    {
+      "prefab": "SledgeStagbreaker",
+      "nameRu": "Сокрушитель оленя",
+      "category": "Оружие",
+      "nameEn": "Stagbreaker"
+    },
+    {
+      "prefab": "SledgeIron",
+      "nameRu": "Железная кувалда",
+      "category": "Оружие",
+      "nameEn": "Iron Sledge"
+    },
+    {
+      "prefab": "SledgeDemolisher",
+      "nameRu": "Разрушитель",
+      "category": "Оружие",
+      "nameEn": "Demolisher"
+    },
+    {
+      "prefab": "Bow",
+      "nameRu": "Грубый лук",
+      "category": "Оружие",
+      "nameEn": "Crude Bow"
+    },
+    {
+      "prefab": "BowFineWood",
+      "nameRu": "Лук из изящной древесины",
+      "category": "Оружие",
+      "nameEn": "Finewood Bow"
+    },
+    {
+      "prefab": "BowHuntsman",
+      "nameRu": "Охотничий лук",
+      "category": "Оружие",
+      "nameEn": "Huntsman Bow"
+    },
+    {
+      "prefab": "BowDraugrFang",
+      "nameRu": "Клык драуга",
+      "category": "Оружие",
+      "nameEn": "Draugr Fang"
+    },
+    {
+      "prefab": "BowSpineSnap",
+      "nameRu": "Спинснэп",
+      "category": "Оружие",
+      "nameEn": "Spinesnap"
+    },
+    {
+      "prefab": "BowAshlands",
+      "nameRu": "Пепельный клык",
+      "category": "Оружие",
+      "nameEn": "Ash Fang"
+    },
+    {
+      "prefab": "CrossbowArbalest",
+      "nameRu": "Арбалет",
+      "category": "Оружие",
+      "nameEn": "Arbalest"
+    },
+    {
+      "prefab": "CrossbowRipper",
+      "nameRu": "Потрошитель",
+      "category": "Оружие",
+      "nameEn": "Ripper"
+    },
+    {
+      "prefab": "FistFenrirClaw",
+      "nameRu": "Когти плоти",
+      "category": "Оружие",
+      "nameEn": "Flesh Rippers"
+    },
+    {
+      "prefab": "FistBjornClaw",
+      "nameRu": "Лапы медведя",
+      "category": "Оружие",
+      "nameEn": "Paws of the Bear"
+    },
+    {
+      "prefab": "THSwordKrom",
+      "nameRu": "Кром",
+      "category": "Оружие",
+      "nameEn": "Krom",
+      "note": "Двуручный меч"
+    },
+    {
+      "prefab": "THSwordSlayer",
+      "nameRu": "Слейер",
+      "category": "Оружие",
+      "nameEn": "Slayer"
+    },
+    {
+      "prefab": "StaffFireball",
+      "nameRu": "Посох углей",
+      "category": "Оружие",
+      "nameEn": "Staff of Embers"
+    },
+    {
+      "prefab": "StaffIceShards",
+      "nameRu": "Посох мороза",
+      "category": "Оружие",
+      "nameEn": "Staff of Frost"
+    },
+    {
+      "prefab": "StaffShield",
+      "nameRu": "Посох защиты",
+      "category": "Оружие",
+      "nameEn": "Staff of Protection"
+    },
+    {
+      "prefab": "StaffSkeleton",
+      "nameRu": "Подниматель мёртвых",
+      "category": "Оружие",
+      "nameEn": "Dead Raiser"
+    },
+    {
+      "prefab": "StaffGreenRoots",
+      "nameRu": "Посох дикой природы",
+      "category": "Оружие",
+      "nameEn": "Staff of the Wild"
+    },
+    {
+      "prefab": "StaffRedTroll",
+      "nameRu": "Тролльстав",
+      "category": "Оружие",
+      "nameEn": "Trollstav"
+    },
+    {
+      "prefab": "StaffClusterbomb",
+      "nameRu": "Посох дробления",
+      "category": "Оружие",
+      "nameEn": "Staff of Fracturing"
+    },
+    {
+      "prefab": "StaffLightning",
+      "nameRu": "Дундр",
+      "category": "Оружие",
+      "nameEn": "Dundr"
+    },
+    {
+      "prefab": "StaffFrostOrbs",
+      "nameRu": "Северная месть",
+      "category": "Оружие",
+      "nameEn": "Northern Vengeance"
+    },
+    {
+      "prefab": "Club",
+      "nameRu": "Дубина",
+      "category": "Оружие",
+      "nameEn": "Club"
+    },
+    {
+      "prefab": "Torch",
+      "nameRu": "Факел",
+      "category": "Оружие",
+      "nameEn": "Torch"
+    },
+    {
+      "prefab": "ArmorRagsChest",
+      "nameRu": "Лохмотья (торс)",
+      "category": "Броня",
+      "nameEn": "Rag Tunic"
+    },
+    {
+      "prefab": "ArmorLeatherChest",
+      "nameRu": "Кожаная туника",
+      "category": "Броня",
+      "nameEn": "Leather Tunic"
+    },
+    {
+      "prefab": "ArmorTrollLeatherChest",
+      "nameRu": "Туника из кожи тролля",
+      "category": "Броня",
+      "nameEn": "Troll Leather Tunic"
+    },
+    {
+      "prefab": "ArmorBronzeChest",
+      "nameRu": "Бронзовая кираса",
+      "category": "Броня",
+      "nameEn": "Bronze Plate Tunic"
+    },
+    {
+      "prefab": "ArmorIronChest",
+      "nameRu": "Железная кольчуга",
+      "category": "Броня",
+      "nameEn": "Iron Scale Mail",
+      "note": "ArmorIronChest"
+    },
+    {
+      "prefab": "ArmorWolfChest",
+      "nameRu": "Нагрудник из волчьей шкуры",
+      "category": "Броня",
+      "nameEn": "Wolf Hide Chestpiece"
+    },
+    {
+      "prefab": "ArmorPaddedCuirass",
+      "nameRu": "Стёганая кираса",
+      "category": "Броня",
+      "nameEn": "Padded Cuirass"
+    },
+    {
+      "prefab": "ArmorCarapaceChest",
+      "nameRu": "Панцирная кираса",
+      "category": "Броня",
+      "nameEn": "Carapace Breastplate"
+    },
+    {
+      "prefab": "ArmorFlametalChest",
+      "nameRu": "Кираса из фламеталла",
+      "category": "Броня",
+      "nameEn": "Flametal Breastplate"
+    },
+    {
+      "prefab": "ArmorMageChest",
+      "nameRu": "Одеяние из эйтровой ткани",
+      "category": "Броня",
+      "nameEn": "Eitr-weave Robe"
+    },
+    {
+      "prefab": "ArmorFenringChest",
+      "nameRu": "Пальто Фенрира",
+      "category": "Броня",
+      "nameEn": "Fenris Coat"
+    },
+    {
+      "prefab": "ArmorRootChest",
+      "nameRu": "Корневой нагрудник",
+      "category": "Броня",
+      "nameEn": "Root Harnesk"
+    },
+    {
+      "prefab": "ArmorDeepNorthMediumChest",
+      "nameRu": "Нагрудник авангарда",
+      "category": "Броня",
+      "nameEn": "Chestpiece of the Vanguard",
+      "note": "Deep North"
+    },
+    {
+      "prefab": "ArmorRagsLegs",
+      "nameRu": "Лохмотья (ноги)",
+      "category": "Броня",
+      "nameEn": "Rag Trousers"
+    },
+    {
+      "prefab": "ArmorLeatherLegs",
+      "nameRu": "Кожаные штаны",
+      "category": "Броня",
+      "nameEn": "Leather Trousers"
+    },
+    {
+      "prefab": "ArmorTrollLeatherLegs",
+      "nameRu": "Штаны из кожи тролля",
+      "category": "Броня",
+      "nameEn": "Troll Leather Trousers"
+    },
+    {
+      "prefab": "ArmorBronzeLegs",
+      "nameRu": "Бронзовые поножи",
+      "category": "Броня",
+      "nameEn": "Bronze Plate Leggings"
+    },
+    {
+      "prefab": "ArmorIronLegs",
+      "nameRu": "Железные поножи",
+      "category": "Броня",
+      "nameEn": "Iron Greaves"
+    },
+    {
+      "prefab": "ArmorWolfLegs",
+      "nameRu": "Штаны из волчьей шкуры",
+      "category": "Броня",
+      "nameEn": "Wolf Hide Trousers"
+    },
+    {
+      "prefab": "ArmorPaddedGreaves",
+      "nameRu": "Стёганые поножи",
+      "category": "Броня",
+      "nameEn": "Padded Greaves"
+    },
+    {
+      "prefab": "ArmorCarapaceLegs",
+      "nameRu": "Панцирные поножи",
+      "category": "Броня",
+      "nameEn": "Carapace Greaves"
+    },
+    {
+      "prefab": "ArmorFlametalLegs",
+      "nameRu": "Поножи из фламеталла",
+      "category": "Броня",
+      "nameEn": "Flametal Greaves"
+    },
+    {
+      "prefab": "ArmorMageLegs",
+      "nameRu": "Штаны из эйтровой ткани",
+      "category": "Броня",
+      "nameEn": "Eitr-weave Trousers"
+    },
+    {
+      "prefab": "ArmorFenringLegs",
+      "nameRu": "Штаны Фенрира",
+      "category": "Броня",
+      "nameEn": "Fenris Leggings"
+    },
+    {
+      "prefab": "ArmorRootLegs",
+      "nameRu": "Корневые штаны",
+      "category": "Броня",
+      "nameEn": "Root Leggings"
+    },
+    {
+      "prefab": "HelmetLeather",
+      "nameRu": "Кожаный шлем",
+      "category": "Броня",
+      "nameEn": "Leather Helmet"
+    },
+    {
+      "prefab": "HelmetTrollLeather",
+      "nameRu": "Капюшон из кожи тролля",
+      "category": "Броня",
+      "nameEn": "Troll Leather Hood"
+    },
+    {
+      "prefab": "HelmetBronze",
+      "nameRu": "Бронзовый шлем",
+      "category": "Броня",
+      "nameEn": "Bronze Helmet"
+    },
+    {
+      "prefab": "HelmetIron",
+      "nameRu": "Железный шлем",
+      "category": "Броня",
+      "nameEn": "Iron Helmet",
+      "note": "HelmetIron"
+    },
+    {
+      "prefab": "HelmetDrake",
+      "nameRu": "Шлем из чешуи дракона",
+      "category": "Броня",
+      "nameEn": "Drake Helmet"
+    },
+    {
+      "prefab": "HelmetPadded",
+      "nameRu": "Стёганый шлем",
+      "category": "Броня",
+      "nameEn": "Padded Helmet"
+    },
+    {
+      "prefab": "HelmetCarapace",
+      "nameRu": "Панцирный шлем",
+      "category": "Броня",
+      "nameEn": "Carapace Helmet"
+    },
+    {
+      "prefab": "HelmetFlametal",
+      "nameRu": "Шлем из фламеталла",
+      "category": "Броня",
+      "nameEn": "Flametal Helmet"
+    },
+    {
+      "prefab": "HelmetMage",
+      "nameRu": "Капюшон из эйтровой ткани",
+      "category": "Броня",
+      "nameEn": "Eitr-weave Hood"
+    },
+    {
+      "prefab": "HelmetFenring",
+      "nameRu": "Капюшон Фенрира",
+      "category": "Броня",
+      "nameEn": "Fenris Hood"
+    },
+    {
+      "prefab": "HelmetRoot",
+      "nameRu": "Корневая маска",
+      "category": "Броня",
+      "nameEn": "Root Mask"
+    },
+    {
+      "prefab": "HelmetDverger",
+      "nameRu": "Обод дварга",
+      "category": "Броня",
+      "nameEn": "Dverger Circlet",
+      "note": "Свет в тёмном"
+    },
+    {
+      "prefab": "HelmetOdin",
+      "nameRu": "Капюшон Одина",
+      "category": "Броня",
+      "nameEn": "Hood of Oden"
+    },
+    {
+      "prefab": "CapeDeerHide",
+      "nameRu": "Плащ из оленьей шкуры",
+      "category": "Броня",
+      "nameEn": "Deer Hide Cape"
+    },
+    {
+      "prefab": "CapeTrollHide",
+      "nameRu": "Плащ из шкуры тролля",
+      "category": "Броня",
+      "nameEn": "Troll Hide Cape"
+    },
+    {
+      "prefab": "CapeWolf",
+      "nameRu": "Плащ из волчьего меха",
+      "category": "Броня",
+      "nameEn": "Wolf Fur Cape",
+      "note": "CapeWolf"
+    },
+    {
+      "prefab": "CapeLinen",
+      "nameRu": "Льняной плащ",
+      "category": "Броня",
+      "nameEn": "Linen Cape"
+    },
+    {
+      "prefab": "CapeFeather",
+      "nameRu": "Перьевой плащ",
+      "category": "Броня",
+      "nameEn": "Feather Cape"
+    },
+    {
+      "prefab": "CapeLox",
+      "nameRu": "Плащ из локса",
+      "category": "Броня",
+      "nameEn": "Lox Cape"
+    },
+    {
+      "prefab": "CapeOdin",
+      "nameRu": "Плащ Одина",
+      "category": "Броня",
+      "nameEn": "Cape of Oden"
+    },
+    {
+      "prefab": "CapeAsh",
+      "nameRu": "Пепельный плащ",
+      "category": "Броня",
+      "nameEn": "Ashen Cape"
+    },
+    {
+      "prefab": "ShieldWood",
+      "nameRu": "Деревянный щит",
+      "category": "Броня",
+      "nameEn": "Wood Shield"
+    },
+    {
+      "prefab": "ShieldBronzeBuckler",
+      "nameRu": "Бронзовый баклер",
+      "category": "Броня",
+      "nameEn": "Bronze Buckler"
+    },
+    {
+      "prefab": "ShieldIronBuckler",
+      "nameRu": "Железный баклер",
+      "category": "Броня",
+      "nameEn": "Iron Buckler"
+    },
+    {
+      "prefab": "ShieldIronSquare",
+      "nameRu": "Железный щит",
+      "category": "Броня",
+      "nameEn": "Iron Shield"
+    },
+    {
+      "prefab": "ShieldBanded",
+      "nameRu": "Окованный щит",
+      "category": "Броня",
+      "nameEn": "Banded Shield"
+    },
+    {
+      "prefab": "ShieldSilver",
+      "nameRu": "Серебряный щит",
+      "category": "Броня",
+      "nameEn": "Silver Shield"
+    },
+    {
+      "prefab": "ShieldBlackmetal",
+      "nameRu": "Щит из чёрного металла",
+      "category": "Броня",
+      "nameEn": "Black Metal Shield"
+    },
+    {
+      "prefab": "ShieldBlackmetalTower",
+      "nameRu": "Башенный щит из чёрного металла",
+      "category": "Броня",
+      "nameEn": "Black Metal Tower Shield"
+    },
+    {
+      "prefab": "ShieldCarapace",
+      "nameRu": "Панцирный щит",
+      "category": "Броня",
+      "nameEn": "Carapace Shield"
+    },
+    {
+      "prefab": "ShieldFlametal",
+      "nameRu": "Щит из фламеталла",
+      "category": "Броня",
+      "nameEn": "Flametal Shield"
+    },
+    {
+      "prefab": "ShieldSerpentscale",
+      "nameRu": "Щит из чешуи змея",
+      "category": "Броня",
+      "nameEn": "Serpent Scale Shield",
+      "note": "ShieldSerpentscale"
+    },
+    {
+      "prefab": "ShieldRoots",
+      "nameRu": "Щит корней",
+      "category": "Броня",
+      "nameEn": "Shield of Roots"
+    },
+    {
+      "prefab": "ArrowWood",
+      "nameRu": "Деревянная стрела",
+      "category": "Стрелы и болты",
+      "nameEn": "Wood Arrow"
+    },
+    {
+      "prefab": "ArrowFlint",
+      "nameRu": "Кремнёвая стрела",
+      "category": "Стрелы и болты",
+      "nameEn": "Flinthead Arrow"
+    },
+    {
+      "prefab": "ArrowBronze",
+      "nameRu": "Бронзовая стрела",
+      "category": "Стрелы и болты",
+      "nameEn": "Bronzehead Arrow"
+    },
+    {
+      "prefab": "ArrowIron",
+      "nameRu": "Железная стрела",
+      "category": "Стрелы и болты",
+      "nameEn": "Ironhead Arrow"
+    },
+    {
+      "prefab": "ArrowSilver",
+      "nameRu": "Серебряная стрела",
+      "category": "Стрелы и болты",
+      "nameEn": "Silver Arrow",
+      "note": "ArrowSilver"
+    },
+    {
+      "prefab": "ArrowObsidian",
+      "nameRu": "Обсидиановая стрела",
+      "category": "Стрелы и болты",
+      "nameEn": "Obsidian Arrow"
+    },
+    {
+      "prefab": "ArrowPoison",
+      "nameRu": "Отравленная стрела",
+      "category": "Стрелы и болты",
+      "nameEn": "Poison Arrow"
+    },
+    {
+      "prefab": "ArrowFrost",
+      "nameRu": "Морозная стрела",
+      "category": "Стрелы и болты",
+      "nameEn": "Frost Arrow"
+    },
+    {
+      "prefab": "ArrowFire",
+      "nameRu": "Огненная стрела",
+      "category": "Стрелы и болты",
+      "nameEn": "Fire Arrow"
+    },
+    {
+      "prefab": "ArrowNeedle",
+      "nameRu": "Стрела из жала",
+      "category": "Стрелы и болты",
+      "nameEn": "Needle Arrow"
+    },
+    {
+      "prefab": "ArrowCarapace",
+      "nameRu": "Панцирная стрела",
+      "category": "Стрелы и болты",
+      "nameEn": "Carapace Arrow"
+    },
+    {
+      "prefab": "ArrowCharred",
+      "nameRu": "Обугленная стрела",
+      "category": "Стрелы и болты",
+      "nameEn": "Charred Arrow"
+    },
+    {
+      "prefab": "BoltBone",
+      "nameRu": "Костяной болт",
+      "category": "Стрелы и болты",
+      "nameEn": "Bone Bolt"
+    },
+    {
+      "prefab": "BoltIron",
+      "nameRu": "Железный болт",
+      "category": "Стрелы и болты",
+      "nameEn": "Iron Bolt"
+    },
+    {
+      "prefab": "BoltBlackmetal",
+      "nameRu": "Болт из чёрного металла",
+      "category": "Стрелы и болты",
+      "nameEn": "Black Metal Bolt"
+    },
+    {
+      "prefab": "BoltCarapace",
+      "nameRu": "Панцирный болт",
+      "category": "Стрелы и болты",
+      "nameEn": "Carapace Bolt"
+    },
+    {
+      "prefab": "BoltCharred",
+      "nameRu": "Обугленный болт",
+      "category": "Стрелы и болты",
+      "nameEn": "Charred Bolt"
+    },
+    {
+      "prefab": "TrophyBoar",
+      "nameRu": "Трофей: кабан",
+      "category": "Трофеи",
+      "nameEn": "Boar Trophy"
+    },
+    {
+      "prefab": "TrophyDeer",
+      "nameRu": "Трофей: олень",
+      "category": "Трофеи",
+      "nameEn": "Deer Trophy"
+    },
+    {
+      "prefab": "TrophyNeck",
+      "nameRu": "Трофей: нек",
+      "category": "Трофеи",
+      "nameEn": "Neck Trophy"
+    },
+    {
+      "prefab": "TrophyGreydwarf",
+      "nameRu": "Трофей: серодверг",
+      "category": "Трофеи",
+      "nameEn": "Greydwarf Trophy"
+    },
+    {
+      "prefab": "TrophyGreydwarfBrute",
+      "nameRu": "Трофей: серодверг-громила",
+      "category": "Трофеи",
+      "nameEn": "Greydwarf Brute Trophy"
+    },
+    {
+      "prefab": "TrophyGreydwarfShaman",
+      "nameRu": "Трофей: шаман серодвергов",
+      "category": "Трофеи",
+      "nameEn": "Greydwarf Shaman Trophy"
+    },
+    {
+      "prefab": "TrophyForestTroll",
+      "nameRu": "Трофей: тролль",
+      "category": "Трофеи",
+      "nameEn": "Troll Trophy",
+      "note": "TrophyForestTroll, не TrophyTroll"
+    },
+    {
+      "prefab": "TrophyFrostTroll",
+      "nameRu": "Трофей: ледяной тролль",
+      "category": "Трофеи",
+      "nameEn": "Troll Trophy"
+    },
+    {
+      "prefab": "TrophySkeleton",
+      "nameRu": "Трофей: скелет",
+      "category": "Трофеи",
+      "nameEn": "Skeleton Trophy"
+    },
+    {
+      "prefab": "TrophyGhost",
+      "nameRu": "Трофей: призрак",
+      "category": "Трофеи",
+      "nameEn": "Ghost Trophy"
+    },
+    {
+      "prefab": "TrophyWolf",
+      "nameRu": "Трофей: волк",
+      "category": "Трофеи",
+      "nameEn": "Wolf Trophy"
+    },
+    {
+      "prefab": "TrophyLox",
+      "nameRu": "Трофей: локс",
+      "category": "Трофеи",
+      "nameEn": "Lox Trophy"
+    },
+    {
+      "prefab": "TrophySerpent",
+      "nameRu": "Трофей: морской змей",
+      "category": "Трофеи",
+      "nameEn": "Serpent Trophy"
+    },
+    {
+      "prefab": "TrophyDraugr",
+      "nameRu": "Трофей: драуг",
+      "category": "Трофеи",
+      "nameEn": "Draugr Trophy"
+    },
+    {
+      "prefab": "TrophyDraugrElite",
+      "nameRu": "Трофей: элитный драуг",
+      "category": "Трофеи",
+      "nameEn": "Draugr Elite Trophy"
+    },
+    {
+      "prefab": "TrophyGoblin",
+      "nameRu": "Трофей: фулинг",
+      "category": "Трофеи",
+      "nameEn": "Fuling Trophy",
+      "note": "Фулинг = Goblin"
+    },
+    {
+      "prefab": "TrophyGoblinShaman",
+      "nameRu": "Трофей: шаман фулингов",
+      "category": "Трофеи",
+      "nameEn": "Fuling Shaman Trophy"
+    },
+    {
+      "prefab": "TrophyGoblinBrute",
+      "nameRu": "Трофей: берсерк фулингов",
+      "category": "Трофеи",
+      "nameEn": "Fuling Berserker Trophy"
+    },
+    {
+      "prefab": "TrophyDeathsquito",
+      "nameRu": "Трофей: deathsquito",
+      "category": "Трофеи",
+      "nameEn": "Deathsquito Trophy"
+    },
+    {
+      "prefab": "TrophySGolem",
+      "nameRu": "Трофей: каменный голем",
+      "category": "Трофеи",
+      "nameEn": "Stone Golem Trophy",
+      "note": "TrophySGolem, не TrophyStoneGolem"
+    },
+    {
+      "prefab": "TrophySeeker",
+      "nameRu": "Трофей: сикер",
+      "category": "Трофеи",
+      "nameEn": "Seeker Trophy"
+    },
+    {
+      "prefab": "TrophySeekerBrute",
+      "nameRu": "Трофей: сикер-солдат",
+      "category": "Трофеи",
+      "nameEn": "Seeker Soldier Trophy"
+    },
+    {
+      "prefab": "TrophyGjall",
+      "nameRu": "Трофей: гьялл",
+      "category": "Трофеи",
+      "nameEn": "Gjall Trophy"
+    },
+    {
+      "prefab": "TrophyDvergr",
+      "nameRu": "Трофей: дверг",
+      "category": "Трофеи",
+      "nameEn": "Dvergr Trophy"
+    },
+    {
+      "prefab": "TrophyEikthyr",
+      "nameRu": "Трофей: Эйктюр",
+      "category": "Трофеи",
+      "nameEn": "Eikthyr Trophy"
+    },
+    {
+      "prefab": "TrophyTheElder",
+      "nameRu": "Трофей: Старейшина",
+      "category": "Трофеи",
+      "nameEn": "The Elder Trophy"
+    },
+    {
+      "prefab": "TrophyBonemass",
+      "nameRu": "Трофей: Костебрюх",
+      "category": "Трофеи",
+      "nameEn": "Bonemass Trophy"
+    },
+    {
+      "prefab": "TrophyDragonQueen",
+      "nameRu": "Трофей: Модер",
+      "category": "Трофеи",
+      "nameEn": "Moder Trophy",
+      "note": "TrophyDragonQueen = Moder Trophy"
+    },
+    {
+      "prefab": "TrophyGoblinKing",
+      "nameRu": "Трофей: Яглут",
+      "category": "Трофеи",
+      "nameEn": "Yagluth Trophy",
+      "note": "TrophyGoblinKing = Yagluth Trophy"
+    },
+    {
+      "prefab": "TrophySeekerQueen",
+      "nameRu": "Трофей: Королева",
+      "category": "Трофеи",
+      "nameEn": "The Queen Trophy"
+    },
+    {
+      "prefab": "TrophyFader",
+      "nameRu": "Трофей: Фейдер",
+      "category": "Трофеи",
+      "nameEn": "Fader Trophy"
+    },
+    {
+      "prefab": "TrophyHatchling",
+      "nameRu": "Трофей: дрейк",
+      "category": "Трофеи",
+      "nameEn": "Drake Trophy"
+    },
+    {
+      "prefab": "TrophySurtling",
+      "nameRu": "Трофей: суртлинг",
+      "category": "Трофеи",
+      "nameEn": "Surtling Trophy"
+    },
+    {
+      "prefab": "TrophyBlob",
+      "nameRu": "Трофей: блоб",
+      "category": "Трофеи",
+      "nameEn": "Blob Trophy"
+    },
+    {
+      "prefab": "TrophyWraith",
+      "nameRu": "Трофей: призрак-тень",
+      "category": "Трофеи",
+      "nameEn": "Wraith Trophy"
+    },
+    {
+      "prefab": "TrophyTick",
+      "nameRu": "Трофей: клещ",
+      "category": "Трофеи",
+      "nameEn": "Tick Trophy"
+    },
+    {
+      "prefab": "TrophyMorgen",
+      "nameRu": "Трофей: морген",
+      "category": "Трофеи",
+      "nameEn": "Morgen Trophy"
+    },
+    {
+      "prefab": "TrophyAsksvin",
+      "nameRu": "Трофей: асксвин",
+      "category": "Трофеи",
+      "nameEn": "Asksvin Trophy"
+    },
+    {
+      "prefab": "TrophyBjorn",
+      "nameRu": "Трофей: медведь",
+      "category": "Трофеи",
+      "nameEn": "Bear Trophy"
+    },
+    {
+      "prefab": "TrophyMoose",
+      "nameRu": "Трофей: лось",
+      "category": "Трофеи",
+      "nameEn": "Moose Trophy"
+    },
+    {
+      "prefab": "TrophySeal",
+      "nameRu": "Трофей: тюлень",
+      "category": "Трофеи",
+      "nameEn": "Seal Trophy"
+    },
+    {
+      "prefab": "TrophyVolture",
+      "nameRu": "Трофей: вольтур",
+      "category": "Трофеи",
+      "nameEn": "Volture Trophy"
+    },
+    {
+      "prefab": "TrophyHare",
+      "nameRu": "Трофей: заяц",
+      "category": "Трофеи",
+      "nameEn": "Hare Trophy"
+    },
+    {
+      "prefab": "TrophyUlv",
+      "nameRu": "Трофей: ульв",
+      "category": "Трофеи",
+      "nameEn": "Ulv Trophy"
+    },
+    {
+      "prefab": "TrophyFenring",
+      "nameRu": "Трофей: фенрир",
+      "category": "Трофеи",
+      "nameEn": "Fenring Trophy"
+    },
+    {
+      "prefab": "TrophyCultist",
+      "nameRu": "Трофей: культист",
+      "category": "Трофеи",
+      "nameEn": "Cultist Trophy"
+    },
+    {
+      "prefab": "Hammer",
+      "nameRu": "Молот",
+      "category": "Инструменты",
+      "nameEn": "Hammer",
+      "note": "Стройка"
+    },
+    {
+      "prefab": "Hoe",
+      "nameRu": "Мотыга",
+      "category": "Инструменты",
+      "nameEn": "Hoe",
+      "note": "Терраформинг"
+    },
+    {
+      "prefab": "Cultivator",
+      "nameRu": "Культиватор",
+      "category": "Инструменты",
+      "nameEn": "Cultivator",
+      "note": "Фермерство"
+    },
+    {
+      "prefab": "PickaxeAntler",
+      "nameRu": "Рогатая кирка",
+      "category": "Инструменты",
+      "nameEn": "Antler Pickaxe"
+    },
+    {
+      "prefab": "PickaxeStone",
+      "nameRu": "Каменная кирка",
+      "category": "Инструменты",
+      "nameEn": "Stone Pickaxe"
+    },
+    {
+      "prefab": "PickaxeBronze",
+      "nameRu": "Бронзовая кирка",
+      "category": "Инструменты",
+      "nameEn": "Bronze Pickaxe"
+    },
+    {
+      "prefab": "PickaxeIron",
+      "nameRu": "Железная кирка",
+      "category": "Инструменты",
+      "nameEn": "Iron Pickaxe"
+    },
+    {
+      "prefab": "PickaxeBlackMetal",
+      "nameRu": "Кирка из чёрного металла",
+      "category": "Инструменты",
+      "nameEn": "Black Metal Pickaxe"
+    },
+    {
+      "prefab": "FishingRod",
+      "nameRu": "Удочка",
+      "category": "Инструменты",
+      "nameEn": "Fishing Rod"
+    },
+    {
+      "prefab": "FishingBait",
+      "nameRu": "Наживка",
+      "category": "Инструменты",
+      "nameEn": "Fishing Bait"
+    },
+    {
+      "prefab": "Tankard",
+      "nameRu": "Кружка",
+      "category": "Инструменты",
+      "nameEn": "Tankard"
+    },
+    {
+      "prefab": "BeltStrength",
+      "nameRu": "Мегингьёрд",
+      "category": "Инструменты",
+      "nameEn": "Megingjord",
+      "note": "+150 к весу"
+    },
+    {
+      "prefab": "Wishbone",
+      "nameRu": "Волшебная кость",
+      "category": "Инструменты",
+      "nameEn": "Wishbone",
+      "note": "Поиск руды/сундуков"
+    },
+    {
+      "prefab": "Demister",
+      "nameRu": "Мглолист",
+      "category": "Инструменты",
+      "nameEn": "Wisplight",
+      "note": "Рассеивает мглу"
+    },
+    {
+      "prefab": "Scythe",
+      "nameRu": "Коса",
+      "category": "Инструменты",
+      "nameEn": "Scythe"
+    },
+    {
+      "prefab": "Shovel",
+      "nameRu": "Снегоуборочная лопата",
+      "category": "Инструменты",
+      "nameEn": "Snow Shovel"
+    },
+    {
+      "prefab": "GrapplingHook",
+      "nameRu": "Крюк-кошка",
+      "category": "Инструменты",
+      "nameEn": "Grappling Hook"
+    },
+    {
+      "prefab": "DvergrKey",
+      "nameRu": "Ключ-лом",
+      "category": "Инструменты",
+      "nameEn": "Sealbreaker"
+    },
+    {
+      "prefab": "CryptKey",
+      "nameRu": "Ключ от склепа",
+      "category": "Инструменты",
+      "nameEn": "Swamp Key"
+    },
+    {
+      "prefab": "SaddleLox",
+      "nameRu": "Седло для локса",
+      "category": "Инструменты",
+      "nameEn": "Lox Saddle"
+    },
+    {
+      "prefab": "SaddleAsksvin",
+      "nameRu": "Седло для асксвина",
+      "category": "Инструменты",
+      "nameEn": "Asksvin Saddle"
+    }
+  ],
+  "creatures": [
+    {
+      "prefab": "Boar",
+      "nameRu": "Кабан",
+      "category": "Животные",
+      "nameEn": "Boar"
+    },
+    {
+      "prefab": "Boar_piggy",
+      "nameRu": "Поросёнок",
+      "category": "Животные",
+      "nameEn": "Piggy"
+    },
+    {
+      "prefab": "Deer",
+      "nameRu": "Олень",
+      "category": "Животные",
+      "nameEn": "Deer"
+    },
+    {
+      "prefab": "Neck",
+      "nameRu": "Нек",
+      "category": "Животные",
+      "nameEn": "Neck"
+    },
+    {
+      "prefab": "Hare",
+      "nameRu": "Заяц",
+      "category": "Животные",
+      "nameEn": "Hare"
+    },
+    {
+      "prefab": "Chicken",
+      "nameRu": "Курица",
+      "category": "Животные",
+      "nameEn": "Chicken"
+    },
+    {
+      "prefab": "Hen",
+      "nameRu": "Кура",
+      "category": "Животные",
+      "nameEn": "Hen"
+    },
+    {
+      "prefab": "Moose",
+      "nameRu": "Лось",
+      "category": "Животные",
+      "nameEn": "Moose",
+      "note": "Deep North"
+    },
+    {
+      "prefab": "Seal",
+      "nameRu": "Тюлень",
+      "category": "Животные",
+      "nameEn": "Seal",
+      "note": "Deep North"
+    },
+    {
+      "prefab": "Lox",
+      "nameRu": "Локс",
+      "category": "Животные",
+      "nameEn": "Lox"
+    },
+    {
+      "prefab": "Lox_Calf",
+      "nameRu": "Детёныш локса",
+      "category": "Животные",
+      "nameEn": "Lox Calf"
+    },
+    {
+      "prefab": "Asksvin",
+      "nameRu": "Асксвин",
+      "category": "Животные",
+      "nameEn": "Asksvin",
+      "note": "Пепельные земли"
+    },
+    {
+      "prefab": "Greyling",
+      "nameRu": "Серый",
+      "category": "Монстры",
+      "nameEn": "Greyling"
+    },
+    {
+      "prefab": "Greydwarf",
+      "nameRu": "Серодверг",
+      "category": "Монстры",
+      "nameEn": "Greydwarf"
+    },
+    {
+      "prefab": "Greydwarf_Shaman",
+      "nameRu": "Шаман серодвергов",
+      "category": "Монстры",
+      "nameEn": "Greydwarf Shaman"
+    },
+    {
+      "prefab": "Greydwarf_Elite",
+      "nameRu": "Громила серодвергов",
+      "category": "Монстры",
+      "nameEn": "Greydwarf Brute",
+      "note": "Greydwarf_Elite = Brute"
+    },
+    {
+      "prefab": "Troll",
+      "nameRu": "Тролль",
+      "category": "Монстры",
+      "nameEn": "Troll"
+    },
+    {
+      "prefab": "TrollFrost",
+      "nameRu": "Гаммельтролль",
+      "category": "Монстры",
+      "nameEn": "Gammeltroll",
+      "note": "Ледяной тролль"
+    },
+    {
+      "prefab": "Skeleton",
+      "nameRu": "Скелет",
+      "category": "Монстры",
+      "nameEn": "Skeleton"
+    },
+    {
+      "prefab": "Skeleton_Poison",
+      "nameRu": "Гниющие останки",
+      "category": "Монстры",
+      "nameEn": "Rancid Remains"
+    },
+    {
+      "prefab": "Ghost",
+      "nameRu": "Призрак",
+      "category": "Монстры",
+      "nameEn": "Ghost"
+    },
+    {
+      "prefab": "Wolf",
+      "nameRu": "Волк",
+      "category": "Монстры",
+      "nameEn": "Wolf"
+    },
+    {
+      "prefab": "Wolf_cub",
+      "nameRu": "Волчонок",
+      "category": "Монстры",
+      "nameEn": "Wolf Cub"
+    },
+    {
+      "prefab": "Fenring",
+      "nameRu": "Фенрир",
+      "category": "Монстры",
+      "nameEn": "Fenring"
+    },
+    {
+      "prefab": "Fenring_Cultist",
+      "nameRu": "Культист",
+      "category": "Монстры",
+      "nameEn": "Cultist"
+    },
+    {
+      "prefab": "Draugr",
+      "nameRu": "Драуг",
+      "category": "Монстры",
+      "nameEn": "Draugr"
+    },
+    {
+      "prefab": "Draugr_Elite",
+      "nameRu": "Элитный драуг",
+      "category": "Монстры",
+      "nameEn": "Draugr Elite"
+    },
+    {
+      "prefab": "Blob",
+      "nameRu": "Блоб",
+      "category": "Монстры",
+      "nameEn": "Blob"
+    },
+    {
+      "prefab": "BlobElite",
+      "nameRu": "Оозер",
+      "category": "Монстры",
+      "nameEn": "Oozer"
+    },
+    {
+      "prefab": "BlobFrost",
+      "nameRu": "Морозный блоб",
+      "category": "Монстры",
+      "nameEn": "Frost Blob"
+    },
+    {
+      "prefab": "BlobLava",
+      "nameRu": "Лавовый блоб",
+      "category": "Монстры",
+      "nameEn": "Lava Blob"
+    },
+    {
+      "prefab": "Bat",
+      "nameRu": "Летучая мышь",
+      "category": "Монстры",
+      "nameEn": "Bat"
+    },
+    {
+      "prefab": "Surtling",
+      "nameRu": "Суртлинг",
+      "category": "Монстры",
+      "nameEn": "Surtling"
+    },
+    {
+      "prefab": "Wraith",
+      "nameRu": "Тень",
+      "category": "Монстры",
+      "nameEn": "Wraith"
+    },
+    {
+      "prefab": "Leech",
+      "nameRu": "Пиявка",
+      "category": "Монстры",
+      "nameEn": "Leech"
+    },
+    {
+      "prefab": "Serpent",
+      "nameRu": "Морской змей",
+      "category": "Монстры",
+      "nameEn": "Serpent"
+    },
+    {
+      "prefab": "Goblin",
+      "nameRu": "Фулинг",
+      "category": "Монстры",
+      "nameEn": "Fuling",
+      "note": "Префаб называется Goblin"
+    },
+    {
+      "prefab": "GoblinShaman",
+      "nameRu": "Шаман фулингов",
+      "category": "Монстры",
+      "nameEn": "Fuling Shaman"
+    },
+    {
+      "prefab": "GoblinBrute",
+      "nameRu": "Берсерк фулингов",
+      "category": "Монстры",
+      "nameEn": "Fuling Berserker"
+    },
+    {
+      "prefab": "Deathsquito",
+      "nameRu": "Deathquito",
+      "category": "Монстры",
+      "nameEn": "Deathsquito"
+    },
+    {
+      "prefab": "StoneGolem",
+      "nameRu": "Каменный голем",
+      "category": "Монстры",
+      "nameEn": "Stone Golem"
+    },
+    {
+      "prefab": "Seeker",
+      "nameRu": "Сикер",
+      "category": "Монстры",
+      "nameEn": "Seeker"
+    },
+    {
+      "prefab": "SeekerBrute",
+      "nameRu": "Сикер-солдат",
+      "category": "Монстры",
+      "nameEn": "Seeker Soldier",
+      "note": "SeekerBrute = Seeker Soldier"
+    },
+    {
+      "prefab": "SeekerBrood",
+      "nameRu": "Выводок сикеров",
+      "category": "Монстры",
+      "nameEn": "Seeker Brood"
+    },
+    {
+      "prefab": "Tick",
+      "nameRu": "Клещ",
+      "category": "Монстры",
+      "nameEn": "Tick"
+    },
+    {
+      "prefab": "Gjall",
+      "nameRu": "Гьялл",
+      "category": "Монстры",
+      "nameEn": "Gjall"
+    },
+    {
+      "prefab": "Dverger",
+      "nameRu": "Дверг-разбойник",
+      "category": "Монстры",
+      "nameEn": "Dvergr Rogue",
+      "note": "Префаб Dverger (через «e»)"
+    },
+    {
+      "prefab": "DvergerMage",
+      "nameRu": "Дверг-маг",
+      "category": "Монстры",
+      "nameEn": "Dvergr Mage"
+    },
+    {
+      "prefab": "Morgen",
+      "nameRu": "Морген",
+      "category": "Монстры",
+      "nameEn": "Morgen"
+    },
+    {
+      "prefab": "Bjorn",
+      "nameRu": "Медведь",
+      "category": "Монстры",
+      "nameEn": "Bear",
+      "note": "Deep North"
+    },
+    {
+      "prefab": "Unbjorn",
+      "nameRu": "Мерзкий",
+      "category": "Монстры",
+      "nameEn": "Vile",
+      "note": "Deep North"
+    },
+    {
+      "prefab": "Elaking",
+      "nameRu": "Элакинг",
+      "category": "Монстры",
+      "nameEn": "Elaking",
+      "note": "Deep North"
+    },
+    {
+      "prefab": "Volture",
+      "nameRu": "Вольтур",
+      "category": "Монстры",
+      "nameEn": "Volture"
+    },
+    {
+      "prefab": "Charred_Melee",
+      "nameRu": "Обугленный воин",
+      "category": "Монстры",
+      "nameEn": "Charred Warrior"
+    },
+    {
+      "prefab": "Charred_Archer",
+      "nameRu": "Обугленный стрелок",
+      "category": "Монстры",
+      "nameEn": "Charred Marksman"
+    },
+    {
+      "prefab": "Charred_Mage",
+      "nameRu": "Обугленный колдун",
+      "category": "Монстры",
+      "nameEn": "Charred Warlock"
+    },
+    {
+      "prefab": "FallenValkyrie",
+      "nameRu": "Павшая валькирия",
+      "category": "Монстры",
+      "nameEn": "Fallen Valkyrie"
+    },
+    {
+      "prefab": "Eikthyr",
+      "nameRu": "Эйктюр",
+      "category": "Боссы",
+      "nameEn": "Eikthyr",
+      "note": "Первый босс"
+    },
+    {
+      "prefab": "gd_king",
+      "nameRu": "Старейшина",
+      "category": "Боссы",
+      "nameEn": "The Elder",
+      "note": "Второй босс"
+    },
+    {
+      "prefab": "Bonemass",
+      "nameRu": "Костебрюх",
+      "category": "Боссы",
+      "note": "Третий босс"
+    },
+    {
+      "prefab": "Dragon",
+      "nameRu": "Модер",
+      "category": "Боссы",
+      "nameEn": "Moder",
+      "note": "Четвёртый босс"
+    },
+    {
+      "prefab": "GoblinKing",
+      "nameRu": "Яглут",
+      "category": "Боссы",
+      "note": "Пятый босс"
+    },
+    {
+      "prefab": "SeekerQueen",
+      "nameRu": "Королева",
+      "category": "Боссы",
+      "nameEn": "The Queen",
+      "note": "Шестой босс"
+    },
+    {
+      "prefab": "Fader",
+      "nameRu": "Фейдер",
+      "category": "Боссы",
+      "nameEn": "Fader",
+      "note": "Босс Пепельных земель"
+    },
+    {
+      "prefab": "FrozenKing",
+      "nameRu": "Калль Фимбульбрангер",
+      "category": "Боссы",
+      "nameEn": "Kall Fimbulbringer",
+      "note": "Deep North"
+    }
+  ],
+  "commands": [
+    {
+      "id": "help",
+      "syntax": "help [page] [total]",
+      "titleRu": "Справка по командам",
+      "descriptionRu": "Печатает список консольных команд (по 2–4 на страницу): help 2 4 — вторая четверть списка.",
+      "category": "Отладка",
+      "requiresDevcommands": false,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "help"
+    },
+    {
+      "id": "devcommands",
+      "syntax": "devcommands",
+      "titleRu": "Включить/выключить читы",
+      "descriptionRu": "Главный переключатель читов. На выделенном сервере команда отклоняется (в т.ч. для админов); работает в одиночной игре и при локальном хостинге.",
+      "category": "Читы",
+      "requiresDevcommands": false,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "devcommands",
+      "note": "На сервере нужен мод Server devcommands"
+    },
+    {
+      "id": "confirmcheats",
+      "syntax": "confirmcheats",
+      "titleRu": "Подтвердить читы",
+      "descriptionRu": "Подтверждение включения читов (диалог/флаг 1.0).",
+      "category": "Читы",
+      "requiresDevcommands": false,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "confirmcheats",
+      "note": "Появилась в 1.0"
+    },
+    {
+      "id": "yesiuseddevcommandsbutiwantmyachievementsanyway",
+      "syntax": "yesiuseddevcommandsbutiwantmyachievementsanyway 1",
+      "titleRu": "Вернуть достижения",
+      "descriptionRu": "Отключает проверку читерства, чтобы достижения снова начислялись (1 = вкл, 0 = выкл).",
+      "category": "Читы",
+      "requiresDevcommands": false,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "yesiuseddevcommandsbutiwantmyachievementsanyway 1",
+      "note": "Добавлено хотфиксом 1.0.12"
+    },
+    {
+      "id": "god",
+      "syntax": "god",
+      "titleRu": "Бессмертие",
+      "descriptionRu": "Переключает режим бессмертия для вашего персонажа: урон не проходит, здоровье не убывает.",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "god",
+      "note": "Только локальный персонаж"
+    },
+    {
+      "id": "ghost",
+      "syntax": "ghost",
+      "titleRu": "Призрак",
+      "descriptionRu": "Монстры перестают вас замечать; персонаж проходит сквозь них.",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "ghost"
+    },
+    {
+      "id": "fly",
+      "syntax": "fly",
+      "titleRu": "Полёт",
+      "descriptionRu": "Включает режим полёта (пробел — вверх, Ctrl — вниз).",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "fly"
+    },
+    {
+      "id": "freefly",
+      "syntax": "freefly",
+      "titleRu": "Свободная камера",
+      "descriptionRu": "Фотокамера, отвязанная от персонажа. Не считается читом для достижений.",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "freefly",
+      "note": "Не помечает мир читерским"
+    },
+    {
+      "id": "ffsmooth",
+      "syntax": "ffsmooth <0-1>",
+      "titleRu": "Плавность freefly",
+      "descriptionRu": "Сглаживание движения свободной камеры.",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "ffsmooth 1"
+    },
+    {
+      "id": "nocost",
+      "syntax": "nocost",
+      "titleRu": "Бесплатная стройка",
+      "descriptionRu": "Стройка и крафт без затрат ресурсов.",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "nocost",
+      "note": "Ближайший аналог «бесконечных ресурсов»"
+    },
+    {
+      "id": "debugmode",
+      "syntax": "debugmode",
+      "titleRu": "Режим отладки",
+      "descriptionRu": "Включает полёт и горячие клавиши: B — стройка без верстака/ресурсов, K — убить врагов, L — убрать дроп, Ctrl+СКМ на карте — телепорт.",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "debugmode"
+    },
+    {
+      "id": "heal",
+      "syntax": "heal",
+      "titleRu": "Полное лечение",
+      "descriptionRu": "Восстанавливает здоровье и выносливость до максимума.",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "heal",
+      "note": "Единственная «ванильная» команда про выносливость"
+    },
+    {
+      "id": "puke",
+      "syntax": "puke",
+      "titleRu": "Очистить желудок",
+      "descriptionRu": "Сбрасывает все пищевые баффы.",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "puke"
+    },
+    {
+      "id": "adrenaline",
+      "syntax": "adrenaline <0-1>",
+      "titleRu": "Уровень адреналина",
+      "descriptionRu": "Задаёт уровень адреналина (механика Пепельных земель).",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "adrenaline 1"
+    },
+    {
+      "id": "nospawn",
+      "syntax": "nospawn",
+      "titleRu": "Отключить спавн",
+      "descriptionRu": "Переключает естественный спавн монстров.",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "nospawn"
+    },
+    {
+      "id": "spawn",
+      "syntax": "spawn <prefab> [amount] [level] [radius] [p/e/i]",
+      "titleRu": "Спавн предмета или существа",
+      "descriptionRu": "Создаёт предмет или существо. Суффикс * — по подстроке; p — подобрать, e — надеть/использовать, i — только если нет в инвентаре.",
+      "category": "Предметы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "spawn Wood 50",
+      "note": "Основная команда выдачи предметов"
+    },
+    {
+      "id": "itemset",
+      "syntax": "itemset <name> [itemLevel] [keep]",
+      "titleRu": "Готовый набор экипировки",
+      "descriptionRu": "Выдаёт заранее собранный набор (Meadows…Ashlands, AshlandsMage, Fisherman и др.); keep — не выбрасывать текущие вещи.",
+      "category": "Предметы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "itemset Ashlands",
+      "note": "Качество задаётся вторым аргументом"
+    },
+    {
+      "id": "catch",
+      "syntax": "catch <fish> [level]",
+      "titleRu": "Поймать рыбу",
+      "descriptionRu": "Имитирует вылов рыбы указанного вида.",
+      "category": "Предметы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "catch Fish1"
+    },
+    {
+      "id": "setfuel",
+      "syntax": "setfuel [amount=10]",
+      "titleRu": "Залить топливо",
+      "descriptionRu": "Заполняет все источники света заданным количеством топлива.",
+      "category": "Предметы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "setfuel 10"
+    },
+    {
+      "id": "inventorysize",
+      "syntax": "inventorysize <n>",
+      "titleRu": "Размер инвентаря",
+      "descriptionRu": "Меняет число слотов инвентаря.",
+      "category": "Предметы",
+      "requiresDevcommands": true,
+      "onlyInGame": true,
+      "takesArguments": true,
+      "example": "inventorysize 40",
+      "note": "Клиентская настройка"
+    },
+    {
+      "id": "inventoryclean",
+      "syntax": "inventoryclean",
+      "titleRu": "Очистка инвентаря",
+      "descriptionRu": "Выбрасывает предметы, оказавшиеся в недопустимых слотах.",
+      "category": "Предметы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "inventoryclean"
+    },
+    {
+      "id": "sortcraft",
+      "syntax": "sortcraft <type>",
+      "titleRu": "Сортировка крафта",
+      "descriptionRu": "Сортирует список крафта по заданному режиму.",
+      "category": "Предметы",
+      "requiresDevcommands": false,
+      "onlyInGame": true,
+      "takesArguments": true,
+      "example": "sortcraft name"
+    },
+    {
+      "id": "filtercraft",
+      "syntax": "filtercraft <text>",
+      "titleRu": "Фильтр крафта",
+      "descriptionRu": "Оставляет в списке крафта только позиции, содержащие текст.",
+      "category": "Предметы",
+      "requiresDevcommands": false,
+      "onlyInGame": true,
+      "takesArguments": true,
+      "example": "filtercraft iron"
+    },
+    {
+      "id": "raiseskill",
+      "syntax": "raiseskill <skill> <amount>",
+      "titleRu": "Повысить навык",
+      "descriptionRu": "Поднимает навык на указанное значение; All — все навыки.",
+      "category": "Игроки",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "raiseskill Swords 20"
+    },
+    {
+      "id": "resetskill",
+      "syntax": "resetskill <skill>",
+      "titleRu": "Сбросить навык",
+      "descriptionRu": "Сбрасывает навык (All — все).",
+      "category": "Игроки",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "resetskill All"
+    },
+    {
+      "id": "resetcharacter",
+      "syntax": "resetcharacter",
+      "titleRu": "Сброс персонажа",
+      "descriptionRu": "Сбрасывает данные персонажа.",
+      "category": "Игроки",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "resetcharacter"
+    },
+    {
+      "id": "resetknownitems",
+      "syntax": "resetknownitems",
+      "titleRu": "Сброс рецептов",
+      "descriptionRu": "Сбрасывает известные предметы и рецепты персонажа.",
+      "category": "Игроки",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "resetknownitems"
+    },
+    {
+      "id": "tutorialreset",
+      "syntax": "tutorialreset",
+      "titleRu": "Сброс обучения",
+      "descriptionRu": "Сбрасывает подсказки обучения.",
+      "category": "Игроки",
+      "requiresDevcommands": false,
+      "onlyInGame": true,
+      "takesArguments": false,
+      "example": "tutorialreset"
+    },
+    {
+      "id": "model",
+      "syntax": "model <0-1>",
+      "titleRu": "Модель персонажа",
+      "descriptionRu": "Меняет модель персонажа (0/1).",
+      "category": "Игроки",
+      "requiresDevcommands": true,
+      "onlyInGame": true,
+      "takesArguments": true,
+      "example": "model 1"
+    },
+    {
+      "id": "hair",
+      "syntax": "hair <n>",
+      "titleRu": "Причёска",
+      "descriptionRu": "Меняет причёску.",
+      "category": "Игроки",
+      "requiresDevcommands": true,
+      "onlyInGame": true,
+      "takesArguments": true,
+      "example": "hair 3"
+    },
+    {
+      "id": "beard",
+      "syntax": "beard <n>",
+      "titleRu": "Борода",
+      "descriptionRu": "Меняет бороду.",
+      "category": "Игроки",
+      "requiresDevcommands": true,
+      "onlyInGame": true,
+      "takesArguments": true,
+      "example": "beard 2"
+    },
+    {
+      "id": "die",
+      "syntax": "die",
+      "titleRu": "Умереть",
+      "descriptionRu": "Убивает вашего персонажа.",
+      "category": "Игроки",
+      "requiresDevcommands": false,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "die"
+    },
+    {
+      "id": "stats",
+      "syntax": "stats",
+      "titleRu": "Статистика игрока",
+      "descriptionRu": "Показывает статистику персонажа.",
+      "category": "Игроки",
+      "requiresDevcommands": false,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "stats",
+      "note": "Требование читов в 1.0.21 не подтверждено"
+    },
+    {
+      "id": "getstat",
+      "syntax": "getstat <stat>",
+      "titleRu": "Значение стата",
+      "descriptionRu": "Показывает конкретный стат.",
+      "category": "Игроки",
+      "requiresDevcommands": false,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "getstat deaths",
+      "note": "Требование читов в 1.0.21 не подтверждено"
+    },
+    {
+      "id": "achievements",
+      "syntax": "achievements",
+      "titleRu": "Достижения",
+      "descriptionRu": "Показывает информацию о достижениях.",
+      "category": "Игроки",
+      "requiresDevcommands": false,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "achievements",
+      "note": "Требование читов в 1.0.21 не подтверждено"
+    },
+    {
+      "id": "resetplayerprefs",
+      "syntax": "resetplayerprefs",
+      "titleRu": "Сброс настроек",
+      "descriptionRu": "Сбрасывает сохранённые настройки и переменные (не сохранение мира).",
+      "category": "Игроки",
+      "requiresDevcommands": false,
+      "onlyInGame": true,
+      "takesArguments": false,
+      "example": "resetplayerprefs"
+    },
+    {
+      "id": "addstatus",
+      "syntax": "addstatus <name>",
+      "titleRu": "Добавить эффект",
+      "descriptionRu": "Накладывает статус-эффект (Rested, Burning, Wet, SoftDeath и т.п.).",
+      "category": "Игроки",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "addstatus Rested"
+    },
+    {
+      "id": "clearstatus",
+      "syntax": "clearstatus",
+      "titleRu": "Снять эффекты",
+      "descriptionRu": "Снимает все статус-эффекты.",
+      "category": "Игроки",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "clearstatus"
+    },
+    {
+      "id": "setpower",
+      "syntax": "setpower <name>",
+      "titleRu": "Сила покровителя",
+      "descriptionRu": "Задаёт силу покровителя и сбрасывает откат (GP_Eikthyr, GP_TheElder…).",
+      "category": "Игроки",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "setpower GP_Eikthyr"
+    },
+    {
+      "id": "players",
+      "syntax": "players <n>",
+      "titleRu": "Масштаб сложности",
+      "descriptionRu": "Принудительно задаёт масштаб сложности «как будто игроков N» (0 — сброс).",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "players 3"
+    },
+    {
+      "id": "tod",
+      "syntax": "tod <-1|0-1>",
+      "titleRu": "Время суток",
+      "descriptionRu": "Задаёт время суток: 0 — полночь, 0.5 — полдень, -1 — вернуть нормальный ход.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "tod 0.5"
+    },
+    {
+      "id": "time",
+      "syntax": "time",
+      "titleRu": "Текущее время",
+      "descriptionRu": "Показывает текущее игровое время.",
+      "category": "Мир",
+      "requiresDevcommands": false,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "time"
+    },
+    {
+      "id": "skiptime",
+      "syntax": "skiptime <seconds>",
+      "titleRu": "Промотать время",
+      "descriptionRu": "Пропускает указанное число игровых секунд.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "skiptime 600"
+    },
+    {
+      "id": "sleep",
+      "syntax": "sleep",
+      "titleRu": "До утра",
+      "descriptionRu": "Пропускает ночь до следующего утра.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "sleep"
+    },
+    {
+      "id": "timescale",
+      "syntax": "timescale <target> [fade]",
+      "titleRu": "Скорость времени",
+      "descriptionRu": "Меняет масштаб времени с плавным переходом (fade 0–5).",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "timescale 2"
+    },
+    {
+      "id": "env",
+      "syntax": "env <name>",
+      "titleRu": "Погода",
+      "descriptionRu": "Принудительно задаёт окружение (Clear, Rain, ThunderStorm, Mistlands…).",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "env Clear"
+    },
+    {
+      "id": "resetenv",
+      "syntax": "resetenv",
+      "titleRu": "Сбросить погоду",
+      "descriptionRu": "Отключает принудительную погоду.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "resetenv"
+    },
+    {
+      "id": "wind",
+      "syntax": "wind <angle> <intensity>",
+      "titleRu": "Ветер",
+      "descriptionRu": "Задаёт направление и силу ветра.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "wind 90 1"
+    },
+    {
+      "id": "resetwind",
+      "syntax": "resetwind",
+      "titleRu": "Сбросить ветер",
+      "descriptionRu": "Возвращает ветер к обычному.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "resetwind"
+    },
+    {
+      "id": "snow",
+      "syntax": "snow <amount>",
+      "titleRu": "Снег на постройках",
+      "descriptionRu": "Добавляет/убирает снег на ближайших постройках.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "snow 1",
+      "note": "Появилась в 1.0"
+    },
+    {
+      "id": "updatecover",
+      "syntax": "updatecover",
+      "titleRu": "Обновить укрытия",
+      "descriptionRu": "Принудительно пересчитывает «крышу» (cover) у построек.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "updatecover",
+      "note": "Появилась в 1.0"
+    },
+    {
+      "id": "event",
+      "syntax": "event <name>",
+      "titleRu": "Запустить событие",
+      "descriptionRu": "Запускает рейд/событие (army_eikthyr, army_theelder, wolves, bats…).",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "event army_eikthyr",
+      "note": "На выделенном сервере не выполнится без мода"
+    },
+    {
+      "id": "stopevent",
+      "syntax": "stopevent",
+      "titleRu": "Остановить событие",
+      "descriptionRu": "Останавливает текущее событие.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "stopevent"
+    },
+    {
+      "id": "randomevent",
+      "syntax": "randomevent",
+      "titleRu": "Случайное событие",
+      "descriptionRu": "Запускает случайное событие.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "randomevent"
+    },
+    {
+      "id": "pevents",
+      "syntax": "pevents <list|start|stop|here>",
+      "titleRu": "Постоянные события",
+      "descriptionRu": "Управление постоянными событиями (1.0.14+: требует devcommands).",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "pevents list"
+    },
+    {
+      "id": "killall",
+      "syntax": "killall",
+      "titleRu": "Убить всех рядом",
+      "descriptionRu": "Убивает всех существ рядом, включая приручённых.",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "killall"
+    },
+    {
+      "id": "killenemies",
+      "syntax": "killenemies",
+      "titleRu": "Убить врагов",
+      "descriptionRu": "Убивает только враждебных существ рядом.",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "killenemies"
+    },
+    {
+      "id": "killtame",
+      "syntax": "killtame",
+      "titleRu": "Убить приручённых",
+      "descriptionRu": "Убивает приручённых животных рядом.",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "killtame"
+    },
+    {
+      "id": "tame",
+      "syntax": "tame",
+      "titleRu": "Приручить всех",
+      "descriptionRu": "Приручает всех приручаемых существ рядом (аналог «tameall», которой в игре нет).",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "tame",
+      "note": "Правильное имя — tame, не tameall"
+    },
+    {
+      "id": "aggravate",
+      "syntax": "aggravate",
+      "titleRu": "Разозлить нейтралов",
+      "descriptionRu": "Делает всех нейтральных существ рядом агрессивными.",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "aggravate"
+    },
+    {
+      "id": "removedrops",
+      "syntax": "removedrops",
+      "titleRu": "Убрать дроп",
+      "descriptionRu": "Удаляет все выпавшие предметы в области.",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "removedrops"
+    },
+    {
+      "id": "removefish",
+      "syntax": "removefish",
+      "titleRu": "Убрать рыбу",
+      "descriptionRu": "Удаляет всех рыб рядом.",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "removefish"
+    },
+    {
+      "id": "removebirds",
+      "syntax": "removebirds",
+      "titleRu": "Убрать птиц",
+      "descriptionRu": "Удаляет всех птиц рядом.",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "removebirds"
+    },
+    {
+      "id": "forcedelete",
+      "syntax": "forcedelete [radius] [*name]",
+      "titleRu": "Принудительное удаление",
+      "descriptionRu": "Удаляет объекты в радиусе (по умолчанию 5, максимум 150); с именем — только совпадающие.",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "forcedelete 10 Beech1",
+      "note": "Осторожно: необратимо"
+    },
+    {
+      "id": "repairall",
+      "syntax": "repairall",
+      "titleRu": "Починить всё",
+      "descriptionRu": "Ремонтирует всю экипировку.",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "repairall"
+    },
+    {
+      "id": "stopfire",
+      "syntax": "stopfire",
+      "titleRu": "Потушить пожары",
+      "descriptionRu": "Тушит распространяющийся огонь и дым.",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "stopfire"
+    },
+    {
+      "id": "stopsmoke",
+      "syntax": "stopsmoke",
+      "titleRu": "Убрать дым",
+      "descriptionRu": "Убирает распространяющийся огонь.",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "stopsmoke"
+    },
+    {
+      "id": "exploremap",
+      "syntax": "exploremap",
+      "titleRu": "Открыть карту",
+      "descriptionRu": "Открывает всю карту.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "exploremap"
+    },
+    {
+      "id": "resetmap",
+      "syntax": "resetmap",
+      "titleRu": "Сбросить карту",
+      "descriptionRu": "Сбрасывает исследование карты.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "resetmap"
+    },
+    {
+      "id": "resetsharedmap",
+      "syntax": "resetsharedmap",
+      "titleRu": "Сброс общей карты",
+      "descriptionRu": "Удаляет общие данные карты из столов картографии.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "resetsharedmap"
+    },
+    {
+      "id": "location",
+      "syntax": "location <name> [SAVE]",
+      "titleRu": "Спавн локации",
+      "descriptionRu": "Создаёт локацию по имени. Без SAVE сохранение мира отключается навсегда.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "location Vendor_BlackForest SAVE",
+      "note": "Опасно без SAVE"
+    },
+    {
+      "id": "haslocation",
+      "syntax": "haslocation <name>",
+      "titleRu": "Проверка локации",
+      "descriptionRu": "Проверяет, есть ли локация в зоне.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "haslocation Vendor_BlackForest",
+      "note": "Появилась в 1.0"
+    },
+    {
+      "id": "vegetation",
+      "syntax": "vegetation <name>",
+      "titleRu": "Спавн растительности",
+      "descriptionRu": "Создаёт растительность по имени префаба.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "vegetation FirTree"
+    },
+    {
+      "id": "nextseed",
+      "syntax": "nextseed <seed>",
+      "titleRu": "Сид подземелья",
+      "descriptionRu": "Задаёт сид следующего подземелья (сохранение отключается навсегда).",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "nextseed 12345",
+      "note": "Опасно"
+    },
+    {
+      "id": "find",
+      "syntax": "find <text> [pingmax]",
+      "titleRu": "Поиск объектов",
+      "descriptionRu": "Ищет объекты и локации по имени и ставит метки на карте.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "find Beech1"
+    },
+    {
+      "id": "findtp",
+      "syntax": "findtp <text> [index] [closerange]",
+      "titleRu": "Телепорт к объекту",
+      "descriptionRu": "Телепортирует к ближайшему найденному объекту (index, closerange=30).",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "findtp Beech1"
+    },
+    {
+      "id": "findbiome",
+      "syntax": "findbiome <text>",
+      "titleRu": "Поиск биома",
+      "descriptionRu": "Отмечает на карте центры биомов, подходящих под строку/модификатор.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "findbiome Mistlands",
+      "note": "Появилась в 1.0"
+    },
+    {
+      "id": "findbiometp",
+      "syntax": "findbiometp <text>",
+      "titleRu": "Телепорт в биом",
+      "descriptionRu": "Телепортирует в ближайший подходящий биом.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "findbiometp Mistlands",
+      "note": "Появилась в 1.0"
+    },
+    {
+      "id": "biomeinfo",
+      "syntax": "biomeinfo",
+      "titleRu": "Инфо о биоме",
+      "descriptionRu": "Информация о текущем секторе биома.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "biomeinfo",
+      "note": "Появилась в 1.0"
+    },
+    {
+      "id": "altbioms",
+      "syntax": "altbioms",
+      "titleRu": "Список биомов",
+      "descriptionRu": "Список биомов с модификаторами.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "altbioms"
+    },
+    {
+      "id": "height",
+      "syntax": "height",
+      "titleRu": "Высота",
+      "descriptionRu": "Печатает высоту рельефа в текущей точке.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "height",
+      "note": "Появилась в 1.0"
+    },
+    {
+      "id": "printseeds",
+      "syntax": "printseeds",
+      "titleRu": "Сид подземелий",
+      "descriptionRu": "Печатает сиды загруженных подземелий.",
+      "category": "Мир",
+      "requiresDevcommands": false,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "printseeds"
+    },
+    {
+      "id": "printlocations",
+      "syntax": "printlocations",
+      "titleRu": "Счётчик локаций",
+      "descriptionRu": "Показывает количество загруженных локаций.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "printlocations"
+    },
+    {
+      "id": "printcreatures",
+      "syntax": "printcreatures",
+      "titleRu": "Счётчик существ",
+      "descriptionRu": "Показывает количество и уровни активных существ.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "printcreatures"
+    },
+    {
+      "id": "printnetobj",
+      "syntax": "printnetobj [radius]",
+      "titleRu": "Сетевые объекты",
+      "descriptionRu": "Списки сетевых объектов по имени вокруг игрока (радиус по умолчанию 5).",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "printnetobj 10"
+    },
+    {
+      "id": "genloc",
+      "syntax": "genloc",
+      "titleRu": "Перегенерация локаций",
+      "descriptionRu": "Перегенерирует все локации.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "genloc"
+    },
+    {
+      "id": "optterrain",
+      "syntax": "optterrain",
+      "titleRu": "Оптимизация рельефа",
+      "descriptionRu": "Оптимизирует старые изменения рельефа.",
+      "category": "Мир",
+      "requiresDevcommands": false,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "optterrain"
+    },
+    {
+      "id": "setkey",
+      "syntax": "setkey <name>",
+      "titleRu": "Включить глобальный ключ",
+      "descriptionRu": "Включает глобальный ключ мира (например nobuildcost).",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "setkey nobuildcost",
+      "note": "В 1.0 часть ключей помечает мир читерским"
+    },
+    {
+      "id": "removekey",
+      "syntax": "removekey <name>",
+      "titleRu": "Убрать ключ",
+      "descriptionRu": "Убирает глобальный ключ мира.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "removekey nobuildcost"
+    },
+    {
+      "id": "resetkeys",
+      "syntax": "resetkeys",
+      "titleRu": "Сброс ключей",
+      "descriptionRu": "Сбрасывает все глобальные ключи мира.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "resetkeys"
+    },
+    {
+      "id": "resetworldkeys",
+      "syntax": "resetworldkeys [name]",
+      "titleRu": "Сброс модификаторов мира",
+      "descriptionRu": "Сбрасывает все модификаторы мира к дефолту.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "resetworldkeys"
+    },
+    {
+      "id": "listkeys",
+      "syntax": "listkeys",
+      "titleRu": "Список ключей",
+      "descriptionRu": "Показывает активные глобальные ключи.",
+      "category": "Мир",
+      "requiresDevcommands": false,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "listkeys"
+    },
+    {
+      "id": "setkeyplayer",
+      "syntax": "setkeyplayer <name>",
+      "titleRu": "Ключ персонажа",
+      "descriptionRu": "Включает персональный ключ игрока.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "setkeyplayer nomap"
+    },
+    {
+      "id": "removekeyplayer",
+      "syntax": "removekeyplayer <name>",
+      "titleRu": "Убрать ключ персонажа",
+      "descriptionRu": "Убирает персональный ключ игрока.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "removekeyplayer nomap"
+    },
+    {
+      "id": "setworldmodifier",
+      "syntax": "setworldmodifier <name> <value>",
+      "titleRu": "Модификатор мира",
+      "descriptionRu": "Меняет модификатор мира на ходу (combat, deathpenalty, resources, raids, portals).",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "setworldmodifier raids none",
+      "note": "На сервере — только через мод"
+    },
+    {
+      "id": "setworldpreset",
+      "syntax": "setworldpreset <name>",
+      "titleRu": "Пресет мира",
+      "descriptionRu": "Применяет именованный пресет мира (Normal, Casual, Easy, Hard, Hardcore, Immersive, Hammer).",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "setworldpreset hammer",
+      "note": "Перезатирает остальные модификаторы"
+    },
+    {
+      "id": "nomap",
+      "syntax": "nomap",
+      "titleRu": "Отключить карту",
+      "descriptionRu": "Отключает карту персонажу; у хоста — всем входящим.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "nomap",
+      "note": "Есть и как ключ -setkey nomap"
+    },
+    {
+      "id": "noportals",
+      "syntax": "noportals",
+      "titleRu": "Отключить порталы",
+      "descriptionRu": "Отключает порталы на сервере.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "noportals",
+      "note": "Как аргумент -setkey НЕ поддерживается"
+    },
+    {
+      "id": "resetspawn",
+      "syntax": "resetspawn",
+      "titleRu": "Сброс точки спавна",
+      "descriptionRu": "Сбрасывает точку возрождения.",
+      "category": "Мир",
+      "requiresDevcommands": false,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "resetspawn"
+    },
+    {
+      "id": "respawntime",
+      "syntax": "respawntime <s>",
+      "titleRu": "Время респавна",
+      "descriptionRu": "Задаёт время до возрождения.",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "respawntime 5"
+    },
+    {
+      "id": "restartparty",
+      "syntax": "restartparty",
+      "titleRu": "Перезапуск PlayFab",
+      "descriptionRu": "Перезапускает сеть PlayFab-пати (кросссплей).",
+      "category": "Мир",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "restartparty"
+    },
+    {
+      "id": "save",
+      "syntax": "save",
+      "titleRu": "Сохранить мир",
+      "descriptionRu": "Принудительное сохранение мира и сброс интервала автосейва.",
+      "category": "Модерация",
+      "requiresDevcommands": false,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "save",
+      "note": "Работает у админа на ванильном сервере"
+    },
+    {
+      "id": "kick",
+      "syntax": "kick <name|ip|userID>",
+      "titleRu": "Кикнуть игрока",
+      "descriptionRu": "Выгоняет игрока с сервера (он может вернуться).",
+      "category": "Модерация",
+      "requiresDevcommands": false,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "kick Player1",
+      "note": "Работает по adminlist.txt"
+    },
+    {
+      "id": "ban",
+      "syntax": "ban <name|ip|userID>",
+      "titleRu": "Забанить игрока",
+      "descriptionRu": "Банит игрока и пишет его в bannedlist.txt.",
+      "category": "Модерация",
+      "requiresDevcommands": false,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "ban Player1"
+    },
+    {
+      "id": "unban",
+      "syntax": "unban <ip|userID>",
+      "titleRu": "Разбанить",
+      "descriptionRu": "Снимает бан.",
+      "category": "Модерация",
+      "requiresDevcommands": false,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "unban 76561198000000000"
+    },
+    {
+      "id": "banned",
+      "syntax": "banned",
+      "titleRu": "Список банов",
+      "descriptionRu": "Показывает всех забаненных.",
+      "category": "Модерация",
+      "requiresDevcommands": false,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "banned"
+    },
+    {
+      "id": "say",
+      "syntax": "say <text>",
+      "titleRu": "Сказать в чат",
+      "descriptionRu": "Сообщение в общий чат от вашего имени.",
+      "category": "Модерация",
+      "requiresDevcommands": false,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "say Сервер перезапустится через 5 минут"
+    },
+    {
+      "id": "shout",
+      "syntax": "shout <text>",
+      "titleRu": "Крикнуть в чат",
+      "descriptionRu": "Сообщение в общий чат (крик).",
+      "category": "Модерация",
+      "requiresDevcommands": false,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "shout Привет"
+    },
+    {
+      "id": "ping",
+      "syntax": "ping",
+      "titleRu": "Пинг сервера",
+      "descriptionRu": "Показывает задержку до сервера.",
+      "category": "Модерация",
+      "requiresDevcommands": false,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "ping"
+    },
+    {
+      "id": "info",
+      "syntax": "info",
+      "titleRu": "Инфо о системе",
+      "descriptionRu": "Печатает системную информацию (версия, сеть).",
+      "category": "Модерация",
+      "requiresDevcommands": false,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "info"
+    },
+    {
+      "id": "goto",
+      "syntax": "goto <x> <z>",
+      "titleRu": "Телепорт по координатам",
+      "descriptionRu": "Телепортирует персонажа в координаты x,z (аргумента «игрок» нет).",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "goto 0 0",
+      "note": "Команды tp в игре нет"
+    },
+    {
+      "id": "pos",
+      "syntax": "pos",
+      "titleRu": "Координаты",
+      "descriptionRu": "Печатает текущую позицию игрока.",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "pos"
+    },
+    {
+      "id": "recall",
+      "syntax": "recall [*name]",
+      "titleRu": "Притянуть игроков",
+      "descriptionRu": "Телепортирует игроков к вам (опционально — по совпадению имени).",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "recall"
+    },
+    {
+      "id": "tombstone",
+      "syntax": "tombstone <name>",
+      "titleRu": "Надгробие",
+      "descriptionRu": "Создаёт надгробие с указанным именем.",
+      "category": "Читы",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "tombstone Test"
+    },
+    {
+      "id": "resetbuildui",
+      "syntax": "resetbuildui",
+      "titleRu": "Сброс UI стройки",
+      "descriptionRu": "Сбрасывает сохранённые «недавние» и «избранные» постройки.",
+      "category": "Отладка",
+      "requiresDevcommands": false,
+      "onlyInGame": true,
+      "takesArguments": false,
+      "example": "resetbuildui",
+      "note": "Появилась в 1.0"
+    },
+    {
+      "id": "clearpopups",
+      "syntax": "clearpopups",
+      "titleRu": "Убрать попапы",
+      "descriptionRu": "Убирает все текущие сообщения-разблокировки.",
+      "category": "Отладка",
+      "requiresDevcommands": true,
+      "onlyInGame": true,
+      "takesArguments": false,
+      "example": "clearpopups"
+    },
+    {
+      "id": "cinematic",
+      "syntax": "cinematic <name>",
+      "titleRu": "Проиграть катсцену",
+      "descriptionRu": "Проигрывает катсцену по имени.",
+      "category": "Отладка",
+      "requiresDevcommands": true,
+      "onlyInGame": true,
+      "takesArguments": true,
+      "example": "cinematic intro"
+    },
+    {
+      "id": "cinematicsleep",
+      "syntax": "cinematicsleep <name>",
+      "titleRu": "Катсцена при сне",
+      "descriptionRu": "Проигрывает катсцену при следующем сне у всех.",
+      "category": "Отладка",
+      "requiresDevcommands": true,
+      "onlyInGame": true,
+      "takesArguments": true,
+      "example": "cinematicsleep intro"
+    },
+    {
+      "id": "unlockcinematics",
+      "syntax": "unlockcinematics",
+      "titleRu": "Разблокировать катсцены",
+      "descriptionRu": "Открывает все катсцены в главном меню.",
+      "category": "Отладка",
+      "requiresDevcommands": true,
+      "onlyInGame": true,
+      "takesArguments": false,
+      "example": "unlockcinematics"
+    },
+    {
+      "id": "dpsdebug",
+      "syntax": "dpsdebug",
+      "titleRu": "Отладка DPS",
+      "descriptionRu": "Включает печать DPS.",
+      "category": "Отладка",
+      "requiresDevcommands": false,
+      "onlyInGame": true,
+      "takesArguments": false,
+      "example": "dpsdebug"
+    },
+    {
+      "id": "lodbias",
+      "syntax": "lodbias <n>",
+      "titleRu": "Дальность прорисовки",
+      "descriptionRu": "Меняет bias дистанции LOD.",
+      "category": "Отладка",
+      "requiresDevcommands": false,
+      "onlyInGame": true,
+      "takesArguments": true,
+      "example": "lodbias 2"
+    },
+    {
+      "id": "fov",
+      "syntax": "fov <n>",
+      "titleRu": "Угол обзора",
+      "descriptionRu": "Меняет FOV камеры.",
+      "category": "Отладка",
+      "requiresDevcommands": false,
+      "onlyInGame": true,
+      "takesArguments": true,
+      "example": "fov 90"
+    },
+    {
+      "id": "maxfps",
+      "syntax": "maxfps <n>",
+      "titleRu": "Лимит FPS",
+      "descriptionRu": "Задаёт лимит кадров.",
+      "category": "Отладка",
+      "requiresDevcommands": false,
+      "onlyInGame": true,
+      "takesArguments": true,
+      "example": "maxfps 60"
+    },
+    {
+      "id": "exclusivefullscreen",
+      "syntax": "exclusivefullscreen",
+      "titleRu": "Эксклюзивный полный экран",
+      "descriptionRu": "Переключает режим окна.",
+      "category": "Отладка",
+      "requiresDevcommands": false,
+      "onlyInGame": true,
+      "takesArguments": false,
+      "example": "exclusivefullscreen"
+    },
+    {
+      "id": "gc",
+      "syntax": "gc",
+      "titleRu": "Сборка мусора",
+      "descriptionRu": "Показывает информацию о GC.",
+      "category": "Отладка",
+      "requiresDevcommands": false,
+      "onlyInGame": true,
+      "takesArguments": false,
+      "example": "gc"
+    },
+    {
+      "id": "cr",
+      "syntax": "cr",
+      "titleRu": "Выгрузка ассетов",
+      "descriptionRu": "Выгружает неиспользуемые ассеты.",
+      "category": "Отладка",
+      "requiresDevcommands": false,
+      "onlyInGame": true,
+      "takesArguments": false,
+      "example": "cr"
+    },
+    {
+      "id": "clear",
+      "syntax": "clear",
+      "titleRu": "Очистить консоль",
+      "descriptionRu": "Очищает окно консоли.",
+      "category": "Отладка",
+      "requiresDevcommands": false,
+      "onlyInGame": true,
+      "takesArguments": false,
+      "example": "clear"
+    },
+    {
+      "id": "bind",
+      "syntax": "bind <keycode> <command>",
+      "titleRu": "Привязать клавишу",
+      "descriptionRu": "Привязывает клавишу к консольной команде.",
+      "category": "Отладка",
+      "requiresDevcommands": false,
+      "onlyInGame": true,
+      "takesArguments": true,
+      "example": "bind F6 god"
+    },
+    {
+      "id": "unbind",
+      "syntax": "unbind <keycode>",
+      "titleRu": "Отвязать клавишу",
+      "descriptionRu": "Снимает привязки с клавиши.",
+      "category": "Отладка",
+      "requiresDevcommands": false,
+      "onlyInGame": true,
+      "takesArguments": true,
+      "example": "unbind F6"
+    },
+    {
+      "id": "printbinds",
+      "syntax": "printbinds",
+      "titleRu": "Список привязок",
+      "descriptionRu": "Печатает текущие привязки клавиш.",
+      "category": "Отладка",
+      "requiresDevcommands": false,
+      "onlyInGame": true,
+      "takesArguments": false,
+      "example": "printbinds"
+    },
+    {
+      "id": "resetbinds",
+      "syntax": "resetbinds",
+      "titleRu": "Сброс привязок",
+      "descriptionRu": "Сбрасывает пользовательские привязки.",
+      "category": "Отладка",
+      "requiresDevcommands": false,
+      "onlyInGame": true,
+      "takesArguments": false,
+      "example": "resetbinds"
+    },
+    {
+      "id": "test",
+      "syntax": "test <key> [value]",
+      "titleRu": "Тестовая строка",
+      "descriptionRu": "Устанавливает тестовую строку по ключу.",
+      "category": "Отладка",
+      "requiresDevcommands": true,
+      "onlyInGame": false,
+      "takesArguments": true,
+      "example": "test foo bar"
+    },
+    {
+      "id": "xb:version",
+      "syntax": "xb:version",
+      "titleRu": "Хеш сборки",
+      "descriptionRu": "Печатает mercurial-хеш сборки.",
+      "category": "Отладка",
+      "requiresDevcommands": false,
+      "onlyInGame": false,
+      "takesArguments": false,
+      "example": "xb:version"
+    },
+    {
+      "id": "hidebetatext",
+      "syntax": "hidebetatext",
+      "titleRu": "Скрыть бета-текст",
+      "descriptionRu": "Скрывает бета-надпись в интерфейсе.",
+      "category": "Отладка",
+      "requiresDevcommands": false,
+      "onlyInGame": true,
+      "takesArguments": false,
+      "example": "hidebetatext"
+    }
+  ]
+}

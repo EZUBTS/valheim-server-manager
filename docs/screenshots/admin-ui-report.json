@@ -1,0 +1,118 @@
+{
+  "generatedAt": "2026-11-08T16:28:56.659Z",
+  "target": "http://tauri.localhost/",
+  "results": [
+    {
+      "name": "diagnose_network быстрый: <3 c, кэш <0.5 c",
+      "ok": true,
+      "details": "первый 393 мс, повтор 1 мс"
+    },
+    {
+      "name": "открытие раздела «Админ» через сайдбар",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "таб-бар: 7 разделов",
+      "ok": true,
+      "details": "7: Обзор | Игроки | Читы | Предметы | Мир | Моды | Справка"
+    },
+    {
+      "name": "названия разделов соответствуют макету",
+      "ok": true,
+      "details": "Обзор | Игроки | Читы | Предметы | Мир | Моды | Справка"
+    },
+    {
+      "name": "счётчики отображаются в бейджах (Читы (159), Предметы (449))",
+      "ok": true,
+      "details": "Обзор | Игроки (4) | Читы (159) | Предметы (449) | Мир | Моды | Справка"
+    },
+    {
+      "name": "нет горизонтального переполнения окна",
+      "ok": true,
+      "details": "scrollWidth=1280, innerWidth=1280"
+    },
+    {
+      "name": "страница не «полотно»: общий скролл ограничен",
+      "ok": true,
+      "details": "body scrollHeight=800, clientHeight=800"
+    },
+    {
+      "name": "таб «Обзор» догружается (не вечный skeleton)",
+      "ok": true,
+      "details": "2641 символов, скелетонов: 0"
+    },
+    {
+      "name": "таб «Игроки» догружается (не вечный skeleton)",
+      "ok": true,
+      "details": "593 символов, скелетонов: 0"
+    },
+    {
+      "name": "таб «Читы» догружается (не вечный skeleton)",
+      "ok": true,
+      "details": "20391 символов, скелетонов: 0"
+    },
+    {
+      "name": "таб «Предметы» догружается (не вечный skeleton)",
+      "ok": true,
+      "details": "1501 символов, скелетонов: 0"
+    },
+    {
+      "name": "таб «Мир» догружается (не вечный skeleton)",
+      "ok": true,
+      "details": "1941 символов, скелетонов: 0"
+    },
+    {
+      "name": "таб «Моды» догружается (не вечный skeleton)",
+      "ok": true,
+      "details": "2093 символов, скелетонов: 0"
+    },
+    {
+      "name": "таб «Справка» догружается (не вечный skeleton)",
+      "ok": true,
+      "details": "633 символов, скелетонов: 0"
+    },
+    {
+      "name": "под-таб «Существа» в «Предметах»",
+      "ok": true,
+      "details": "Существа65"
+    }
+  ],
+  "screens": [
+    {
+      "label": "Обзор",
+      "file": "D:\\Servers\\Valheim\\docs\\screenshots\\admin-tab-1-обзор.png",
+      "textLength": 2641
+    },
+    {
+      "label": "Игроки",
+      "file": "D:\\Servers\\Valheim\\docs\\screenshots\\admin-tab-2-игроки.png",
+      "textLength": 593
+    },
+    {
+      "label": "Читы",
+      "file": "D:\\Servers\\Valheim\\docs\\screenshots\\admin-tab-3-читы.png",
+      "textLength": 20391
+    },
+    {
+      "label": "Предметы",
+      "file": "D:\\Servers\\Valheim\\docs\\screenshots\\admin-tab-4-предметы.png",
+      "textLength": 1501
+    },
+    {
+      "label": "Мир",
+      "file": "D:\\Servers\\Valheim\\docs\\screenshots\\admin-tab-5-мир.png",
+      "textLength": 1941
+    },
+    {
+      "label": "Моды",
+      "file": "D:\\Servers\\Valheim\\docs\\screenshots\\admin-tab-6-моды.png",
+      "textLength": 2093
+    },
+    {
+      "label": "Справка",
+      "file": "D:\\Servers\\Valheim\\docs\\screenshots\\admin-tab-7-справка.png",
+      "textLength": 633
+    }
+  ]
+}

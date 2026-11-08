@@ -1,0 +1,15 @@
+# Normalize line endings for the whole repository.
+* text=auto eol=lf
+
+# Ensure shell scripts and Rust sources stay LF.
+*.sh text eol=lf
+*.rs text eol=lf
+
+# Binary assets.
+*.png binary
+*.ico binary
+*.icns binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.woff2 binary

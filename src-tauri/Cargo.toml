@@ -1,0 +1,65 @@
+[package]
+name = "valheim-server-manager"
+version = "0.1.0"
+description = "Valheim Server Manager — desktop manager for a Valheim dedicated server"
+authors = ["Valheim Server Manager"]
+edition = "2024"
+rust-version = "1.85"
+publish = false
+
+[lib]
+# The `_lib` suffix avoids a name clash with the binary on Windows.
+name = "valheim_server_manager_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.7.4", features = [] }
+
+[dependencies]
+tauri = { version = "2.12.5", features = [] }
+tauri-plugin-log = "2.10.1"
+tauri-plugin-os = "2.4.0"
+tauri-plugin-dialog = "2.8.4"
+
+log = "0.4.35"
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+thiserror = "2.0.21"
+zip = "7.3.0"
+chrono = "0.4.45"
+regex = "1.13.1"
+walkdir = "2.5.0"
+ureq = "3.5.1"
+
+[dev-dependencies]
+tempfile = "3.27.0"
+
+# Desktop-only plugins.
+[target.'cfg(not(any(target_os = "android", target_os = "ios")))'.dependencies]
+tauri-plugin-single-instance = "2.5.5"
+tauri-plugin-window-state = "2.5.0"
+
+# Optimize the release binary for size and startup performance.
+# https://tauri.app/concept/size/#cargo-configuration
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "s"
+panic = "abort"
+strip = true
+
+[profile.dev]
+# Faster incremental builds during development.
+incremental = true
+
+[lints.rust]
+unsafe_code = "forbid"
+missing_debug_implementations = "warn"
+
+[lints.clippy]
+all = { level = "warn", priority = -1 }
+pedantic = { level = "warn", priority = -1 }
+module_name_repetitions = "allow"
+missing_errors_doc = "allow"
+missing_panics_doc = "allow"
+must_use_candidate = "allow"
