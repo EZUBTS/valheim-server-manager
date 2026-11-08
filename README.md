@@ -148,11 +148,11 @@ pnpm desktop:build
 
 | Обзор | Читы |
 | --- | --- |
-| ![Обзор админки](docs/screenshots/admin-tab-1-обзор.png) | ![Читы](docs/screenshots/admin-tab-3-читы.png) |
+| ![Обзор админки](docs/screenshots/admin-tab-1-overview.png) | ![Читы](docs/screenshots/admin-tab-3-cheats.png) |
 
 | Предметы | Моды |
 | --- | --- |
-| ![Предметы](docs/screenshots/admin-tab-4-предметы.png) | ![Моды](docs/screenshots/admin-tab-6-моды.png) |
+| ![Предметы](docs/screenshots/admin-tab-4-items.png) | ![Моды](docs/screenshots/admin-tab-6-mods.png) |
 
 Страница «Админ» — отдельный раздела приложения с собственной навигацией:
 **Обзор** (статусы, чек-лист готовности, быстрые комбо), **Игроки**

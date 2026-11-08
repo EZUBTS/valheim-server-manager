@@ -81,37 +81,37 @@
   "screens": [
     {
       "label": "Обзор",
-      "file": "D:\\Servers\\Valheim\\docs\\screenshots\\admin-tab-1-обзор.png",
+      "file": "docs/screenshots/admin-tab-1-overview.png",
       "textLength": 2641
     },
     {
       "label": "Игроки",
-      "file": "D:\\Servers\\Valheim\\docs\\screenshots\\admin-tab-2-игроки.png",
+      "file": "docs/screenshots/admin-tab-2-players.png",
       "textLength": 593
     },
     {
       "label": "Читы",
-      "file": "D:\\Servers\\Valheim\\docs\\screenshots\\admin-tab-3-читы.png",
+      "file": "docs/screenshots/admin-tab-3-cheats.png",
       "textLength": 20391
     },
     {
       "label": "Предметы",
-      "file": "D:\\Servers\\Valheim\\docs\\screenshots\\admin-tab-4-предметы.png",
+      "file": "docs/screenshots/admin-tab-4-items.png",
       "textLength": 1501
     },
     {
       "label": "Мир",
-      "file": "D:\\Servers\\Valheim\\docs\\screenshots\\admin-tab-5-мир.png",
+      "file": "docs/screenshots/admin-tab-5-world.png",
       "textLength": 1941
     },
     {
       "label": "Моды",
-      "file": "D:\\Servers\\Valheim\\docs\\screenshots\\admin-tab-6-моды.png",
+      "file": "docs/screenshots/admin-tab-6-mods.png",
       "textLength": 2093
     },
     {
       "label": "Справка",
-      "file": "D:\\Servers\\Valheim\\docs\\screenshots\\admin-tab-7-справка.png",
+      "file": "docs/screenshots/admin-tab-7-help.png",
       "textLength": 633
     }
   ]
